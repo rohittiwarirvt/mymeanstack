@@ -1,0 +1,20 @@
+{
+  "name": "ch6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3",
+    "swig": "^1.4.2"
+  }
+}
