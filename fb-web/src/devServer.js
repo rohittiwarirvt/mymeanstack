@@ -29,7 +29,7 @@ app.use(express.static('./dist'));
 // If react, react-router, or the static page routes don't handle a request, then return the index.html file.
 // The file is actually living in memory and not on disk (like the static files are), so get it out
 // of the compiler and return it.
-app.use("*", (req, reqs, next) => {
+app.use("*", (req, res, next) => {
 
   const filename = path.join(compiler.outputPath, "index.html");
   console.log(`test ${compiler}`)
@@ -43,7 +43,7 @@ app.use("*", (req, reqs, next) => {
 });
 
 
-app.listen(8080, "local.fblearn.com", (err) => {
+app.listen(9191, "local.fblearn.com", (err) => {
   if(err) {
     console.log(err);
     return;
