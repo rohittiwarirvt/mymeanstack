@@ -1,1 +1,4 @@
-console.log("My html page js");
+declare var $: any;
+declare var USAFNav: any;
+declare var module: {hot: any}
+
