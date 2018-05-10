@@ -1,4 +1,4 @@
-<div ng-controller="ViewProductLinesCtrl">
+<div ng-controller="ViewProductLineCtrl">
         <div class="col-sm-9">
             <div class="card">
                 <div class="card-header">
@@ -22,7 +22,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <strong>Price Agreement</strong>
-                                <button class="btn btn-success" ui-sref="app.new-price-agreement" type="button" style="float: right;">Add New</button>
+                                <button class="btn btn-success" ui-sref="app.viewpriceagreement" type="button" style="float: right;">Add New</button>
                             </div>
                             <div class="card-body">
                                 <table class="table table-bordered table-striped table-sm">
@@ -47,6 +47,10 @@
                                     </tbody>
                                 </table>
 
+                            </div>
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button class="btn btn-danger" ui-sref="app.product-lines" type="button">Cancel</button>
                             </div>
                     </div>
                 </div>

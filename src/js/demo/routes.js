@@ -286,6 +286,38 @@ angular
                 }]
             }
         })
+
+        .state('app.viewproduct', {
+            url: '/product/viewproduct',
+            templateUrl: 'products/view-product/view-product.html',
+            ncyBreadcrumb: {
+                label: 'view product'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['products/view-product/view-product.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.newproduct', {
+            url: '/product/newproduct',
+            templateUrl: 'products/new-product/new-product.html',
+            ncyBreadcrumb: {
+                label: 'new product'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['products/new-product/new-product.controller.js']
+                    });
+                }]
+            }
+        })
         // end of view routes
 
       //pramod109

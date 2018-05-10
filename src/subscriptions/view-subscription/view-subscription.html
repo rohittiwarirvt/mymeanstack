@@ -2,7 +2,9 @@
     <div class="card">
         <div class="card-header">
             <i class="fa fa-align-justify"></i>Subscription Details
-
+            <button type="button" class="btn btn-primary btn-sm">Log Transaction </button>
+            <button type="button" class="btn btn-success btn-sm">cashout </button>
+            <button type="button" class="btn btn-warning btn-sm">Close Account</button>
         </div>
         <div class="card-body ">
 
@@ -68,20 +70,20 @@
                     <table class="table table-bordered table-striped table-sm">
                         <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Description</th>
-                            <th>Unit of Measure</th>
-                            <th>Default Unit Cost</th>
-                            <th>Currency</th>
+                            <th>Product Name</th>
+                            <th>quantity</th>
+                            <th>Unit cost</th>
+                            <th>Total cost</th>
+                            <th>Supplier</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>Onion Seeds</td>
-                            <td>White onion seeds</td>
-                            <td>Pounds</td>
-                            <td>$5</td>
-                            <td>$</td>
+                            <td>100</td>
+                            <td>10</td>
+                            <td>1000</td>
+                            <td>Geezy</td>
                         </tr>
                         </tbody>
                     </table>
@@ -209,7 +211,7 @@
 
         </div>
         <div class="card-footer">
-
+            <button class="btn btn-danger" ui-sref="app.subscriptions" type="button">back</button>
         </div>
     </div>
 </div>

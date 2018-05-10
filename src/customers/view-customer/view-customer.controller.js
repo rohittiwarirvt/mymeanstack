@@ -15,7 +15,7 @@
      * Controller for the Clients Page
      */
 
-    function CustomersCtrl($scope,$state,$window){
+    function ViewCustomersCtrl($scope,$state,$window){
 
         $scope.test = "Customers controller successfully loaded";
 

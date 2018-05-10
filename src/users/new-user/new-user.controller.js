@@ -14,7 +14,7 @@
      * Controller for the NewUserPage
      */
 
-    function NewSupplierCtrl($scope,$state,$window){
+    function NewUserCtrl($scope,$state,$window){
 
         $scope.test = "NewUserCtrl controller successfully loaded";
 

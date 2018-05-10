@@ -1,12 +1,15 @@
 /**
  * Created by nikpa on 10-05-2018.
  */
+/**
+ * Created by nikpa on 10-05-2018.
+ */
 (function() {
     'use strict';
 
     angular
         .module('app')
-        .controller('ViewClientIssueCtrl',['$scope','$state','$window',ViewClientIssueCtrl])
+        .controller('ViewProductCtrl',['$scope','$state','$window',ViewProductCtrl])
 
     /**
      * @module New Client Issue
@@ -14,7 +17,7 @@
      * Controller for the New Client Issue Page
      */
 
-    function ViewClientIssueCtrl($scope,$state,$window){
+    function ViewProductCtrl($scope,$state,$window){
 
         $scope.test = "NewClientIssue controller successfully loaded";
 

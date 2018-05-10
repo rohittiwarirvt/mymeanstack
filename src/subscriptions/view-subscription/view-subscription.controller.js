@@ -14,7 +14,7 @@
      * Controller for the View Subscriptions Page
      */
 
-    function SubscriptionsCtrl($scope,$state,$window){
+    function ViewSubscriptionsCtrl($scope,$state,$window){
 
         $scope.test = "View Subscriptions controller successfully loaded";
 

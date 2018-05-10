@@ -1,4 +1,4 @@
-<div ng-controller="CreatePriceAgreementCtrl">
+<div ng-controller="PriceAgreementCtrl">
     <div class="col-sm-9">
         <div class="card">
             <div class="card-header">
@@ -10,7 +10,7 @@
                 <div class="col-sm-12">
                     <div class="card">
                         <div class="card-header">
-                            <strong>Pricing details</strong>
+                            <strong>Pricing Agreement</strong>
                         </div>
                         <div class="card-body">
 
@@ -25,7 +25,7 @@
                             </div>
                             <!--/.row-->
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label" for="input-normal">price per unit</label>
+                                <label class="col-sm-3 col-form-label" for="input-normal">Price per unit</label>
                                 <div class="col-sm-3">
                                     <input type="text" id="input-normal" name="input-normal" class="form-control" placeholder="price per unit">
                                 </div>
@@ -61,8 +61,8 @@
                             <!--/.row-->
                         </div>
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-sm btn-primary">
-                                <i class="fa fa-dot-circle-o"></i> Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button class="btn btn-danger" ui-sref="app.viewproductline" type="button">Cancel</button>
                     </div>
                 </div>
             </div>

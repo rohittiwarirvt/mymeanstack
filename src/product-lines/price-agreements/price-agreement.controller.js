@@ -7,7 +7,7 @@
 
     angular
         .module('app')
-        .controller('CreatePriceAgreementCtrl',['$scope','$state','$window',CreatePriceAgreementCtrl])
+        .controller('PriceAgreementCtrl',['$scope','$state','$window',PriceAgreementCtrl])
 
     /**
      * @module ProductLines
@@ -15,7 +15,7 @@
      * Controller for the ProductLines Page
      */
 
-    function ProductLinesCtrl($scope,$state,$window){
+    function PriceAgreementCtrl($scope,$state,$window){
 
         $scope.test = "CreatePriceAgreementCtrl controller successfully loaded";
 

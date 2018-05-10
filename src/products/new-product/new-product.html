@@ -1,0 +1,54 @@
+<div ng-controller="ViewProductCtrl">
+    <div class="col-sm-9">
+        <div class="card">
+            <div class="card-header">
+                <strong>Product details</strong>
+            </div>
+            <div class="card-body">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Product Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="input-normal" name="input-normal" class="form-control" placeholder="Product Name">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="textarea-input">Description</label>
+                    <div class="col-md-4">
+                        <textarea id="textarea-input" name="textarea-input" rows="4" class="form-control" placeholder="Description of Product"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Unit of Measure</label>
+                    <div class="form-group col-sm-3">
+                        <select class="form-control" id="unitmeasure">
+                            <option>Kg</option>
+                            <option>Pounds</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Default Unit Cost</label>
+                    <div class="col-sm-4">
+                    <input type="text" id="deafaultunit" name="input-normal" class="form-control " placeholder="Default Unit">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Currency</label>
+                    <div class="form-group col-sm-3">
+                        <select class="form-control" id="currency">
+                            <option>SLL</option>
+                            <option>EUR</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn btn-success" type="submit">Submit</button>
+                <button class="btn btn-danger" ui-sref="app.products" type="button">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -7,7 +7,7 @@
 
     angular
         .module('app')
-        .controller('ViewProductLinesCtrl',['$scope','$state','$window',ViewProductLinesCtrl])
+        .controller('ViewProductLineCtrl',['$scope','$state','$window',ViewProductLineCtrl])
 
     /**
      * @module ProductLines
@@ -15,7 +15,7 @@
      * Controller for the ProductLines Page
      */
 
-    function ProductLinesCtrl($scope,$state,$window){
+    function ViewProductLineCtrl($scope,$state,$window){
 
         $scope.test = "ViewProductLines controller successfully loaded";
 

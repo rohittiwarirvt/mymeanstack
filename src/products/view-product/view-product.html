@@ -1,0 +1,62 @@
+<div ng-controller="ViewProductCtrl">
+    <div class="col-sm-9">
+        <div class="card">
+            <div class="card-header">
+                <strong>Product details</strong>
+            </div>
+            <div class="card-body">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Product Name</label>
+                    <label class="col-sm-3 col-form-label" >white Onion seeds</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="textarea-input">Description</label>
+                    <div class="col-md-4">
+                        <textarea id="textarea-input" name="textarea-input" rows="4" class="form-control" placeholder="Description of Product"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Unit of Measure</label>
+                    <label class="col-sm-3 col-form-label" >Pounds</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Default Unit Cost</label>
+                    <label class="col-sm-3 col-form-label" >12</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" >Currency</label>
+                    <label class="col-sm-3 col-form-label" >USD</label>
+                </div>
+
+               <div class="card">
+                   <div class="card-header">
+                       <Strong>Suppiers of Products</Strong>
+                   </div>
+                   <div class="card-body">
+                       <table class="table-bordered table-striped table-sm">
+                          <thead>
+                          <th>Supplier Name</th>
+                          <th>Price offered</th>
+                          <th>Currency</th>
+                          <th>address</th>
+                          </thead>
+                           <tbody>
+                           <td>Nick</td>
+                           <td>12</td>
+                           <td>$</td>
+                           <td>district</td>
+                           </tbody>
+                       </table>
+                   </div>
+
+               </div>
+                <button class="btn btn-success" type="submit">Edit</button>
+                <button class="btn btn-danger" ui-sref="app.products" type="button">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

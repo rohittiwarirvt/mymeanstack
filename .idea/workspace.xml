@@ -2,39 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1303db28-417b-4248-b61e-9ed434d84ecb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/customers/view-customer/view-customer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/customers/view-customer/view-customer.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/users/new-user/new-user.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/users/new-user/new-user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/users/view-user/view-user.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/users/view-user/view-user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/products/new-product/new-product.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/products/new-product/new-product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/products/view-product/view-product.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/products/view-product/view-product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client-issues/client-issues.html" afterPath="$PROJECT_DIR$/src/client-issues/client-issues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client-issues/new-client-issue/new-client-issue.html" afterPath="$PROJECT_DIR$/src/client-issues/new-client-issue/new-client-issue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js" afterPath="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/customers/customers.html" afterPath="$PROJECT_DIR$/src/customers/customers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/customers/new-customer/new-customer.html" afterPath="$PROJECT_DIR$/src/customers/new-customer/new-customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js" afterPath="$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/customers/view-customer/view-customer.html" afterPath="$PROJECT_DIR$/src/customers/view-customer/view-customer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demo/routes.js" afterPath="$PROJECT_DIR$/src/js/demo/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plans/new-plan/new-plan.html" afterPath="$PROJECT_DIR$/src/plans/new-plan/new-plan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html" afterPath="$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js" afterPath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html" afterPath="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/product-lines.html" afterPath="$PROJECT_DIR$/src/product-lines/product-lines.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js" afterPath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html" afterPath="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/products/products.html" afterPath="$PROJECT_DIR$/src/products/products.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/subscriptions/subscriptions.html" afterPath="$PROJECT_DIR$/src/subscriptions/subscriptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/transactions/transactions.html" afterPath="$PROJECT_DIR$/src/transactions/transactions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/common/footer.html" afterPath="$PROJECT_DIR$/src/views/common/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/common/navbar.html" afterPath="$PROJECT_DIR$/src/views/common/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/main.html" afterPath="$PROJECT_DIR$/src/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vouchers/vouchers.html" afterPath="$PROJECT_DIR$/src/vouchers/vouchers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js" afterPath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html" afterPath="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.html" afterPath="$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/suppliers/suppliers.html" afterPath="$PROJECT_DIR$/src/suppliers/suppliers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js" afterPath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html" afterPath="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/new-user/new-user.controller.js" afterPath="$PROJECT_DIR$/src/users/new-user/new-user.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/new-user/new-user.html" afterPath="$PROJECT_DIR$/src/users/new-user/new-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/users.html" afterPath="$PROJECT_DIR$/src/users/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/view-user/view-user.controller.js" afterPath="$PROJECT_DIR$/src/users/view-user/view-user.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/view-user/view-user.html" afterPath="$PROJECT_DIR$/src/users/view-user/view-user.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,70 +56,28 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/demo/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="274" column="19" lean-forward="false" selection-start-line="274" selection-start-column="19" selection-end-line="274" selection-end-column="32" />
+            <state relative-caret-position="202">
+              <caret line="193" column="35" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-user.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/users/view-user/view-user.html">
+      <file leaf-file-name="view-subscription.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="604">
+              <caret line="211" column="14" lean-forward="true" selection-start-line="211" selection-start-column="14" selection-end-line="211" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/users/new-user/new-user.html">
+      <file leaf-file-name="view-customer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/customers/view-customer/view-customer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view-issue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client-issues/view-issues/view-issue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client-issues.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client-issues/client-issues.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view-user.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/users/view-user/view-user.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/components/forms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="222" column="11" lean-forward="true" selection-start-line="222" selection-start-column="11" selection-end-line="244" selection-end-column="18" />
+            <state relative-caret-position="640">
+              <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="289" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -153,6 +109,10 @@
       <find>transa</find>
       <find>issues</find>
       <find>checkbo</find>
+      <find>viewsubscription</find>
+      <find>product</find>
+      <find>sub</find>
+      <find>price-agreement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +122,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/views/main.html" />
-        <option value="$PROJECT_DIR$/src/customers/new-customer/new-customer.html" />
-        <option value="$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html" />
         <option value="$PROJECT_DIR$/src/plans/new-plan/new-plan.html" />
         <option value="$PROJECT_DIR$/src/client-issues/new-client-issue/new-client-issue.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
@@ -171,34 +129,44 @@
         <option value="$PROJECT_DIR$/src/views/common/navbar.html" />
         <option value="$PROJECT_DIR$/src/customers/view-customer/view.customer.html" />
         <option value="$PROJECT_DIR$/src/customers/view-customer/view-customer.service.js" />
-        <option value="$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js" />
-        <option value="$PROJECT_DIR$/src/customers/customers.html" />
         <option value="$PROJECT_DIR$/src/vouchers/vouchers.html" />
         <option value="$PROJECT_DIR$/src/transactions/transactions.html" />
-        <option value="$PROJECT_DIR$/src/client-issues/client-issues.html" />
-        <option value="$PROJECT_DIR$/src/customers/view-customer/view-customer.html" />
-        <option value="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js" />
-        <option value="$PROJECT_DIR$/src/subscriptions/subscriptions.html" />
-        <option value="$PROJECT_DIR$/src/products/products.html" />
-        <option value="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html" />
         <option value="$PROJECT_DIR$/src/suppliers/view-supplier/view-subscription.html" />
-        <option value="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js" />
-        <option value="$PROJECT_DIR$/src/product-lines/product-lines.html" />
-        <option value="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html" />
-        <option value="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js" />
-        <option value="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html" />
-        <option value="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js" />
-        <option value="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html" />
         <option value="$PROJECT_DIR$/src/issues/view-issues/view-issue.html" />
         <option value="$PROJECT_DIR$/src/issues/view-issues/view-issue.controller.js" />
-        <option value="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js" />
         <option value="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.html" />
-        <option value="$PROJECT_DIR$/src/users/new-user/new-user.controller.js" />
         <option value="$PROJECT_DIR$/src/views/forms.html" />
-        <option value="$PROJECT_DIR$/src/users/new-user/new-user.html" />
+        <option value="$PROJECT_DIR$/src/subscriptions/subscriptions.html" />
+        <option value="$PROJECT_DIR$/src/suppliers/suppliers.html" />
+        <option value="$PROJECT_DIR$/src/product-lines/product-lines.controller.js" />
+        <option value="$PROJECT_DIR$/src/product-lines/product-lines.html" />
+        <option value="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js" />
+        <option value="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js" />
+        <option value="$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js" />
+        <option value="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js" />
+        <option value="$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js" />
+        <option value="$PROJECT_DIR$/src/client-issues/client-issues.html" />
         <option value="$PROJECT_DIR$/src/users/view-user/view-user.controller.js" />
+        <option value="$PROJECT_DIR$/src/users/users.html" />
+        <option value="$PROJECT_DIR$/src/users/new-user/new-user.controller.js" />
+        <option value="$PROJECT_DIR$/src/customers/customers.html" />
+        <option value="$PROJECT_DIR$/src/customers/new-customer/new-customer.html" />
+        <option value="$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.html" />
+        <option value="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js" />
+        <option value="$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html" />
+        <option value="$PROJECT_DIR$/src/products/view-product/view-product.controller.js" />
+        <option value="$PROJECT_DIR$/src/products/new-product/new-product.controller.js" />
         <option value="$PROJECT_DIR$/src/js/demo/routes.js" />
+        <option value="$PROJECT_DIR$/src/products/products.html" />
+        <option value="$PROJECT_DIR$/src/products/new-product/new-product.html" />
+        <option value="$PROJECT_DIR$/src/products/view-product/view-product.html" />
         <option value="$PROJECT_DIR$/src/users/view-user/view-user.html" />
+        <option value="$PROJECT_DIR$/src/users/new-user/new-user.html" />
+        <option value="$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html" />
+        <option value="$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html" />
+        <option value="$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html" />
+        <option value="$PROJECT_DIR$/src/customers/view-customer/view-customer.html" />
+        <option value="$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html" />
       </list>
     </option>
   </component>
@@ -280,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="subscriptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,33 +266,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="subscriptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view-user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new-user" />
+              <option name="myItemId" value="view-subscription" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="suppliers" />
+              <option name="myItemId" value="customers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,51 +306,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="suppliers" />
+              <option name="myItemId" value="customers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view-supplier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client-issues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCommit-Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client-issues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view-issues" />
+              <option name="myItemId" value="view-customer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,6 +391,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1303db28-417b-4248-b61e-9ed434d84ecb" name="Default" comment="" />
@@ -492,19 +401,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525904406739</updated>
-      <workItem from="1525904408480" duration="39791000" />
+      <workItem from="1525904408480" duration="50796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39791000" />
+    <option name="totallyTimeSpent" value="50796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -534,74 +443,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/customers/new-customer/new-customer.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/common/sidebar-nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/core/_breadcrumb.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="11" column="288968" lean-forward="false" selection-start-line="11" selection-start-column="288962" selection-end-line="11" selection-end-column="288968" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/common/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
           <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vouchers/vouchers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="92" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -638,50 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/customers/customers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscriptions/subscriptions.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suppliers/suppliers.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -698,14 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscriptions/subscriptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suppliers/suppliers.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -714,78 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/customers/view-customer/view-customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="74" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/components/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/product-lines.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/product-lines.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/customers/new-customer/new-customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="259" column="12" lean-forward="true" selection-start-line="259" selection-start-column="12" selection-end-line="260" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -814,16 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -832,112 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/new-user/new-user.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/forms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="101" column="85" lean-forward="false" selection-start-line="101" selection-start-column="84" selection-end-line="101" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="151" column="21" lean-forward="true" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client-issues/view-issues/view-issue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="67" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/new-user/new-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demo/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="274" column="19" lean-forward="false" selection-start-line="274" selection-start-column="19" selection-end-line="274" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/view-user/view-user.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client-issues/client-issues.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -950,10 +563,310 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/subscriptions/subscriptions.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vouchers/vouchers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="83" column="17" lean-forward="true" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suppliers/suppliers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/product-lines.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/customers/view-customer/view-customer.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/new-user/new-user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/view-user/view-user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subscriptions/subscriptions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clients/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/customers/customers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suppliers/new-supplier/new-supplier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="109" lean-forward="false" selection-start-line="14" selection-start-column="109" selection-end-line="14" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client-issues/view-issues/view-issue.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client-issues/view-issues/view-issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client-issues/client-issues.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/view-product/view-product.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/new-product/new-product.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/customers/new-customer/new-customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3334">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="88" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/new-product/new-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/products/view-product/view-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="57" column="68" lean-forward="false" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/new-user/new-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/users/view-user/view-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="604">
+          <caret line="75" column="69" lean-forward="false" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/product-lines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/new-product-line/new-product-line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/price-agreements/price-agreement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="64" column="87" lean-forward="false" selection-start-line="64" selection-start-column="87" selection-end-line="64" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-lines/view-product-lines/view-product-line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="53" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suppliers/view-supplier/view-supplier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="144" column="15" lean-forward="false" selection-start-line="144" selection-start-column="15" selection-end-line="146" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/demo/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="193" column="35" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/customers/view-customer/view-customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="289" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subscriptions/view-subscription/view-subscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="211" column="14" lean-forward="true" selection-start-line="211" selection-start-column="14" selection-end-line="211" selection-end-column="14" />
           <folding />
         </state>
       </provider>

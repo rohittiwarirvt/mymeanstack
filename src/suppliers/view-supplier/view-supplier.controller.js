@@ -15,7 +15,7 @@
      * Controller for the Suppliers Page
      */
 
-    function SuppliersCtrl($scope,$state,$window){
+    function ViewSuppliersCtrl($scope,$state,$window){
 
         $scope.test = "Viewing Suppliers controller successfully loaded";
 
