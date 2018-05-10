@@ -1,0 +1,215 @@
+<div class="animated fadeIn" ng-controller="ViewSubscriptionsCtrl">
+    <div class="card">
+        <div class="card-header">
+            <i class="fa fa-align-justify"></i>Subscription Details
+
+        </div>
+        <div class="card-body ">
+
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> General Customer Information
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td>Account Number : 000001</td>
+                            <td> start date : 1980-02-01 </td>
+                        </tr>
+                        <tr>
+                            <td>Plan : Monthly plan for onion farming </td>
+                            <td> end date : 1980-02-01   </td>
+                        </tr>
+                        <tr>
+                            <td>Balance : 1000</td>
+                            <td> Next installment date : 1980-02-01 </td>
+                        </tr>
+                        <tr>
+                            <td>Interval : Monthly  </td>
+                            <td> Interval unit :30   </td>
+                        </tr>
+                        <tr>
+                            <td>State : Active </td>
+                            <td> Target amount : 30000 </td>
+                        </tr>
+                        <tr>
+                            <td>Currency : $ </td>
+                            <td> Installment Amount :230 </td>
+                        </tr>
+                        <tr>
+                            <td>Product : Onion </td>
+                            <td> Cashout Date : 1980-02-01 </td>
+                        </tr>
+                        <tr>
+                            <td>Customer  : Michael Bhau </td>
+                            <td> Cashed Out : false </td>
+                        </tr>
+                        <tr>
+                            <td> State changed on : 1980-02-01 </td>
+                            <td> active : true </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Products
+
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Unit of Measure</th>
+                            <th>Default Unit Cost</th>
+                            <th>Currency</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Onion Seeds</td>
+                            <td>White onion seeds</td>
+                            <td>Pounds</td>
+                            <td>$5</td>
+                            <td>$</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Vouchers
+                    <!-- <button class="btn btn-success" ui-sref="" type="button" style="float:right">Add New</button> -->
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Customer</th>
+                            <th>Supplier</th>
+                            <th>Subscription Id</th>
+                            <th>Transaction Id</th>
+                            <th>Voucher State</th>
+                            <th>Effective Status Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Onion Seeds</td>
+                            <td>Jesse</td>
+                            <td>Kohli</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>Active</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.vouchers" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Transactions
+                    <!-- <button class="btn btn-success" ui-sref="" type="button" style="float:right">Add New</button> -->
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Date</th>
+                            <th>Pre Balance</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1000</td>
+                            <td>Credit</td>
+                            <td>2018-02-02</td>
+                            <td>9000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.transactions" type="button">view more ...</button>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Customer Issues
+                    <button class="btn btn-success" ui-sref="app.new-client-issue" type="button" style="float:right">Create new Issue</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Client Name</th>
+                            <th>Subscription</th>
+                            <th>Status</th>
+                            <th>Date Reported</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Payments</td>
+                            <td>John Doe</td>
+                            <td>0001</td>
+                            <td>Submitted</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.client-issues" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">
+
+        </div>
+    </div>
+</div>

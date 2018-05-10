@@ -6,61 +6,55 @@
                     <i class="fa fa-align-justify"></i>Filter Vouchers
                 </div>
                 <div class="card-body">
-                    <div class="row">
-                        <form class="form-inline">
-                            <div class="form-group mr-1">
-                                <label class="col-form-label mr-4">Subscription</label>
+                    <div class="form-group row">
+                        <div class="form-inline">
+                            <div class="col-4">
                                 <input type="text" id="if-email" name="if-email" class="form-control" placeholder="Subscription">
                             </div>
-                            <!-- <div class="form-group mr-1">
-                            <label class="col-form-label mr-3" for="if-password">Password</label>
-                            <input type="password" id="if-password" name="if-password" class="form-control" placeholder="Enter Password..">
-                        </div> -->
-                            <label class="col-form-label mr-3" for="input-normal">From Date</label>
-                            <div class="form-group mr-1">
 
+
+                            <div class="col-4">
                                 <datepicker date-format="yyyy-MM-dd" selector="form-control">
                                     <div class="input-group">
-                                        <input class="form-control" placeholder="Choose a date" />
+                                        <input class="form-control" placeholder="From date" />
                                         <span class="input-group-addon" style="cursor: pointer">
                                             <i class="fa fa-lg fa-calendar"></i>
                                         </span>
                                     </div>
                                 </datepicker>
                             </div>
-                            <label class="col-form-label mr-3" for="input-normal">To Date</label>
-                            <div class="form-group mr-1">
 
+                            <div class="col-4">
                                 <datepicker date-format="yyyy-MM-dd" selector="form-control">
                                     <div class="input-group">
-                                        <input class="form-control" placeholder="Choose a date" />
+                                        <input class="form-control" placeholder="To Date" />
                                         <span class="input-group-addon" style="cursor: pointer">
                                             <i class="fa fa-lg fa-calendar"></i>
                                         </span>
                                     </div>
                                 </datepicker>
                             </div>
-                        </form>
+                        </div>
                     </div>
                     <br>
                     <div class="row">
-                        <form class="form-inline">
-                            <div class="form-group mr-1">
-                                <label class="col-form-label mr-5">Customer</label>
-                                <input type="text" id="if-email" name="if-email" class="form-control" placeholder="Subscription">
+                        <div class="form-inline">
+                            <div class="col-4">
+                                <input type="text" id="if-email" name="if-email" class="form-control" placeholder="customer name">
                             </div>
-                            <div class="form-group mr-1">
-                                <label class="col-form-label mr-3">Transaction Id</label>
+                            <div class="col-4">
                                 <input type="text" id="if-email" name="if-email" class="form-control" placeholder="Transaction Id">
                             </div>
-                            <div class="form-group mr-1">
-                                <label class="col-form-label mr-3">State</label>
+                            <div class="col-4">
                                 <input type="text" id="if-email" name="if-email" class="form-control" placeholder="State">
                             </div>
-                        </form>
-                        <button class="btn btn-success" type="submit">Search</button>
+                        </div>
                      </div>
+                    <br>
                     
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" type="submit">Search</button>
                 </div>
             </div>
             <div class="card">
@@ -94,28 +88,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <!-- <nav>
-                                    <ul class="pagination">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">Prev</a>
-                                        </li>
-                                        <li class="page-item active">
-                                            <a class="page-link" href="#">1</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">2</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">3</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">4</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">Next</a>
-                                        </li>
-                                    </ul>
-                                </nav> -->
+
                 </div>
             </div>
         </div>

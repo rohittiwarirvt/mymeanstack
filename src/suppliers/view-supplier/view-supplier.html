@@ -1,0 +1,156 @@
+<div class="animated fadeIn" ng-controller="ViewSuppliersCtrl">
+    <div class="card">
+        <div class="card-header">
+            Supplier Details
+            <button class="btn btn-success" ui-sref="app.new-product-line" type="button" style="float:right">Edit Supplier Details</button>
+        </div>
+        <div class="card-body ">
+
+
+            <div class="card">
+                <div class="card-header">
+                    Name : Michael Jordan
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Street: 23 olive st</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> Chiefdom : NJ </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> District : Hudson </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" >Geolocation X:1 Y:2 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="card-footer"> Outstanding balance : 12346</div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Product Lines
+                    <button class="btn btn-success" ui-sref="app.new-product-line" type="button" style="float:right">Add New</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Unit cost</th>
+                            <th>Total cost</th>
+                            <th>Supplier</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Product 1</td>
+                            <td>10</td>
+                            <td>1500</td>
+                            <td>Tom</td>
+                            <td> <button type="button" class="btn btn-danger btn-sm">Delete</button></td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Vouchers
+                    <!-- <button class="btn btn-success" ui-sref="" type="button" style="float:right">Add New</button> -->
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Customer</th>
+                            <th>Supplier</th>
+                            <th>Subscription Id</th>
+                            <th>Transaction Id</th>
+                            <th>Voucher State</th>
+                            <th>Effective Status Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Onion Seeds</td>
+                            <td>Jesse</td>
+                            <td>Kohli</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>Active</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.vouchers" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Customer Issues
+                    <button class="btn btn-success" ui-sref="app.new-client-issue" type="button" style="float:right">Create new Issue</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Client Name</th>
+                            <th>Subscription</th>
+                            <th>Status</th>
+                            <th>Date Reported</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Payments</td>
+                            <td>John Doe</td>
+                            <td>0001</td>
+                            <td>Submitted</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.client-issues" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">
+
+        </div>
+    </div>
+</div>

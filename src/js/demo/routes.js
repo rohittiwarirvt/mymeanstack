@@ -157,6 +157,137 @@ angular
         }
       })
 
+
+        //nikpawar89
+        .state('app.viewcustomer', {
+            url: '/customer/viewcustomer',
+            templateUrl: 'customers/view-customer/view-customer.html',
+            ncyBreadcrumb: {
+                label: 'view Customers'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['customers/view-customer/view-customer.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewsubscription', {
+            url: '/subscription/viewsubscription',
+            templateUrl: 'subscriptions/view-subscription/view-subscription.html',
+            ncyBreadcrumb: {
+                label: 'view subscription'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['subscriptions/view-subscription/view-subscription.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewproductline', {
+            url: '/productlines/viewproductline',
+            templateUrl: 'product-lines/view-product-lines/view-product-line.html',
+            ncyBreadcrumb: {
+                label: 'view product line'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['product-lines/view-product-lines/view-product-line.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewpriceagreement', {
+            url: '/productlines/viewpriceagreement',
+            templateUrl: 'product-lines/price-agreements/price-agreement.html',
+            ncyBreadcrumb: {
+                label: 'view price agreement'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['product-lines/price-agreements/price-agreement.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewsupplier', {
+            url: '/suppliers/viewsupplier',
+            templateUrl: 'suppliers/view-supplier/view-supplier.html',
+            ncyBreadcrumb: {
+                label: 'view supplier'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['suppliers/view-supplier/view-supplier.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.clientissue', {
+            url: '/clientissues/viewissues',
+            templateUrl: 'client-issues/view-issues/view-issue.html',
+            ncyBreadcrumb: {
+                label: 'view issue'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['client-issues/view-issues/view-issue.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.createnewuser', {
+            url: '/user/createnewuser',
+            templateUrl: 'users/new-user/new-user.html',
+            ncyBreadcrumb: {
+                label: 'new user'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['users/new-user/new-user.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewuser', {
+            url: '/user/viewuser',
+            templateUrl: 'users/view-user/view-user.html',
+            ncyBreadcrumb: {
+                label: 'view user'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['users/view-user/view-user.controller.js']
+                    });
+                }]
+            }
+        })
+        // end of view routes
+
       //pramod109
       //Routing for client-issues module
       .state('app.client-issues', {

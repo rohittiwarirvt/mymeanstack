@@ -1,0 +1,292 @@
+<div class="animated fadeIn" ng-controller="ViewCustomersCtrl">
+    <div class="card">
+        <div class="card-header">
+                <i class="fa fa-align-justify"></i>View Customer
+                <button class="btn btn-success" ui-sref="app.new-client-issue" type="button" style="float:right">Edit Customer Details</button>
+        </div>
+        <div class="card-body ">
+
+
+                <div class="col-sm-2" >
+                    <div class="card">
+                        <div class="card-header">
+                            Customer photo
+                        </div>
+                        <div class="card-body">
+                            Photo
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <table class="table-bordered table-sm table-striped">
+                        <tbody>
+                        <tr><td>ID : 12134546</td></tr>
+                        <tr><td>Status : Active </td></tr>
+                        <tr><td>Last Transaction : 2018-05-01 </td></tr>
+                        <tr><td>Next Payment : 2018-06-01 </td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> General Customer Information
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped ">
+                    <tbody>
+                            <tr>
+                               <td>Name : Michael Jordan</td>
+                                <td> Phone : 888888888 </td>
+                            </tr>
+                            <tr>
+                                <td>Date of birth : 1980-02-01 </td>
+                                <td> Gender : Male  </td>
+                            </tr>
+                            <tr>
+                               <td colspan="2"> Default Curency : $ </td>
+                            </tr>
+
+                    </tbody>
+                    </table>
+
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Street: 23 olive st</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> Chiefdom : NJ </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> District : Hudson </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" >Geolocation X:1 Y:2 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Identification</td>
+                        </tr>
+                        <tr>
+                            <td>Id type : National </td>
+                            <td> Id Number : 888888888 </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Expiry :2020-12-21 </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Financial Literacy Data</td>
+                        </tr>
+                        <tr>
+                            <td>Used savings Service: Yes </td>
+                            <td> Used Mobile Money: Yes </td>
+                        </tr>
+                        <tr>
+                            <td>Used credit service : Yes</td>
+                            <td> Last Used Mobile Money : 2018-05-01 </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                    <table class="table table-bordered table-striped ">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Household Data</td>
+                        </tr>
+                        <tr>
+                            <td>Head Count of Family members: 4 </td>
+                            <td> is Customer literate : Yes </td>
+                        </tr>
+                        <tr>
+                            <td>Total income of family : $20,000 </td>
+                            <td> Is any of the famly member other than customer literate: yes </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Customer Subscriptions
+                    <button class="btn btn-success" ui-sref="app.new-client-issue" type="button" style="float:right">Add New</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Plan</th>
+                            <th>Balance</th>
+                            <th>Status</th>
+                            <th>Next Payment</th>
+                            <th>Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Monthly Plan for Onion Farming</td>
+                            <td>1000</td>
+                            <td>Active</td>
+                            <td>2018-02-02</td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Log Transaction </button>
+                                <button type="button" class="btn btn-success btn-sm">Create Voucher </button>
+                                <button type="button" class="btn btn-warning btn-sm">Close Account</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm"  ui-sref-active="active"  ui-sref="app.vouchers" type="button">view more ...</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Vouchers
+                    <!-- <button class="btn btn-success" ui-sref="" type="button" style="float:right">Add New</button> -->
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Customer</th>
+                            <th>Supplier</th>
+                            <th>Subscription Id</th>
+                            <th>Transaction Id</th>
+                            <th>Voucher State</th>
+                            <th>Effective Status Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Onion Seeds</td>
+                            <td>Jesse</td>
+                            <td>Kohli</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>Active</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.vouchers" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Transactions
+                    <!-- <button class="btn btn-success" ui-sref="" type="button" style="float:right">Add New</button> -->
+                </div>
+                <div class="card-body">
+
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Date</th>
+                            <th>Pre Balance</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1000</td>
+                            <td>Credit</td>
+                            <td>2018-02-02</td>
+                            <td>9000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.transactions" type="button">view more ...</button>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Customer Issues
+                    <button class="btn btn-success" ui-sref="app.new-client-issue" type="button" style="float:right">Add New</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Client Name</th>
+                            <th>Subscription</th>
+                            <th>Status</th>
+                            <th>Date Reported</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Payments</td>
+                            <td>John Doe</td>
+                            <td>0001</td>
+                            <td>Submitted</td>
+                            <td>2018-02-02</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-success btn-sm" ui-sref="app.client-issues" type="button">view more ...</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">
+
+        </div>
+    </div>
+</div>

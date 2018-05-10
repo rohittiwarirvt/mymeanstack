@@ -3,21 +3,26 @@
         <div class="card">
             <div class="card-header">
                 <strong>New Customer Issue</strong>
-                <small>Form</small>
-
             </div>
             <div class="card-body">
                 <div class="form-group row">
-                    <label class="col-sm-3 col-form-label" for="input-normal">Name</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="input-normal" name="input-normal" class="form-control" placeholder="Normal">
+                    <label class="col-sm-3 col-form-label" for="input-normal">Customer Name</label>
+
+                    <div class="col-sm-4">
+                        <div class="form-inline">
+                        <input type="text" id="customer name" name="input-normal" class="form-control" placeholder="Name">
+                        <button type="button" class="btn btn-primary">Search</button>
+                    </div>
                     </div>
                 </div>
                 
                 <div class="form-group row">
                     <label class="col-sm-3 col-form-label" for="input-normal">Subscription</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="input-normal" name="input-normal" class="form-control" placeholder="Normal">
+                    <div class="col-sm-4">
+                        <div class="form-inline">
+                            <input type="text" id="input-normal" name="input-normal" class="form-control" placeholder="Subscription No.">
+                            <button type="button" class="btn btn-primary">Search</button>
+                        </div>
                     </div>
                 </div>
                 
@@ -46,7 +51,7 @@
                 <div class="form-group row">
                     <label class="col-md-3 col-form-label" for="textarea-input">Description</label>
                     <div class="col-md-6">
-                        <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Content.."></textarea>
+                        <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="Description of Issue"></textarea>
                     </div>
                 </div>
                 <button class="btn btn-success" type="submit">Submit</button>
