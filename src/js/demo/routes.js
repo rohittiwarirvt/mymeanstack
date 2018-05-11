@@ -191,6 +191,22 @@ angular
             }
         })
 
+        .state('app.createsubscription', {
+            url: '/subscription/createsubscription',
+            templateUrl: 'subscriptions/new-subscription/create-subscription.html',
+            ncyBreadcrumb: {
+                label: 'view subscription'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['subscriptions/new-subscription/create-subscription.controller.js']
+                    });
+                }]
+            }
+        })
+
         .state('app.viewproductline', {
             url: '/productlines/viewproductline',
             templateUrl: 'product-lines/view-product-lines/view-product-line.html',
@@ -314,6 +330,22 @@ angular
                     // you can lazy load controllers
                     return $ocLazyLoad.load({
                         files: ['products/new-product/new-product.controller.js']
+                    });
+                }]
+            }
+        })
+
+        .state('app.viewplan', {
+            url: '/plans/viewplan',
+            templateUrl: 'plans/view-plan/view-plan.html',
+            ncyBreadcrumb: {
+                label: 'View Plans'
+            },
+            resolve: {
+                loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    // you can lazy load controllers
+                    return $ocLazyLoad.load({
+                        files: ['plans/view-plan/view-plan.controller.js']
                     });
                 }]
             }
