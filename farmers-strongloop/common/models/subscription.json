@@ -1,0 +1,61 @@
+{
+  "name": "subscription",
+  "plural": "subscriptions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "installmentAmount": {
+      "type": "number",
+      "required": true
+    },
+    "customerId": {
+      "type": "number",
+      "required": true
+    },
+    "start": {
+      "type": "date",
+      "required": true
+    },
+    "end": {
+      "type": "date",
+      "required": true
+    },
+    "planId": {
+      "type": "number",
+      "required": true
+    },
+    "interval": {
+      "type": "string",
+      "required": true
+    },
+    "intervalUnits": {
+      "type": "number",
+      "required": true
+    },
+    "targetAmount": {
+      "type": "number",
+      "required": true
+    },
+    "cashoutDate": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "metadata": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

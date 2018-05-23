@@ -14,25 +14,53 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongoDb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongoDb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongoDb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongoDb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongoDb",
     "public": false
+  },
+  "customer": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "subscription": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "plan": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "product": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "transaction": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "voucher": {
+    "dataSource": "mongoDb",
+    "public": true
+  },
+  "issue": {
+    "dataSource": "mongoDb",
+    "public": true
   }
 }

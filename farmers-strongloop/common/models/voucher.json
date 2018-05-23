@@ -1,0 +1,42 @@
+{
+  "name": "voucher",
+  "plural": "vouchers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "object"
+    },
+    "supplier": {
+      "type": "object"
+    },
+    "subscription": {
+      "type": "object"
+    },
+    "transaction": {
+      "type": "object"
+    },
+    "state": {
+      "type": "object",
+      "required": true
+    },
+    "stateChangeOn": {
+      "type": "date",
+      "required": true
+    },
+    "validUntil": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

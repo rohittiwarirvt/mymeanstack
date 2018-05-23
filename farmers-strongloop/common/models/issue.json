@@ -1,0 +1,33 @@
+{
+  "name": "issue",
+  "plural": "issues",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "customer": {
+      "type": "object"
+    },
+    "subscription": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "dateSubmitted": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
