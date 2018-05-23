@@ -1,0 +1,447 @@
+= Add new plan
+
+POST http://domainname:9191/plan/
+
+Nikhil: same question here- do we need full objects of products, units etc
+
+Request body:
+
+ {
+  "id": 1,
+  "name": "white onion term plan",
+  "fixedTerm": "false",
+  "installments": 6,
+  "interval": "Monthly",
+  "intervalUnits": 1,
+  "suppliers": [
+    {
+      "supplierId": "1"
+    }
+  ]
+}
+
+
+Response body:
+
+{
+  "id": 1,
+  "name": "white onion term plan",
+  "fixedTerm": "false",
+  "installments": 6,
+  "interval": "Monthly",
+  "intervalUnits": 1,
+ "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+}
+
+= update plan
+
+PUT http://domainname:9191/plan/{planId}
+
+
+Request body:
+
+ {
+  "id": 1,
+  "name": "white onion term plan",
+  "fixedTerm": "false",
+  "installments": 6,
+  "interval": "Monthly",
+  "intervalUnits": 1,
+  "suppliers": [
+    {
+      "supplierId": "1"
+    }
+  ]
+}
+
+
+Response body:
+
+{
+  "id": 1,
+  "name": "white onion term plan",
+  "fixedTerm": "false",
+  "installments": 6,
+  "interval": "Monthly",
+  "intervalUnits": 1,
+ "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+}
+= Template API for plan form
+
+GET http://domainname:9191/plan/template
+
+Response body:
+
+{
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Mark assoc",
+      "address": {
+        "street": "104 border st",
+        "chiefdom": {
+          "name": "Soho",
+          "code": "SH",
+          "district": "Manhattan"
+        },
+        "district": {
+          "name": "Manhattan",
+          "code": "MNH"
+        },
+        "location": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              125.6,
+              10.1
+            ]
+          },
+          "properties": {
+            "name": "Dinagat Islands"
+          }
+        }
+      },
+      "products": [
+        {
+          "product": {
+            "id": "1",
+            "name": "onion seed",
+            "description": "while onion seeds",
+            "unitOfMeasure": "Kilograms",
+            "defaultUnitCost": "150",
+            "currency": "USD"
+          },
+          "priceAgreements": [
+            {
+              "unitCost": "110",
+              "startDate": "2018-01-11",
+              "endDate": "2018-12-11"
+            }
+          ],
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "interval": [
+    {
+      "code": "1",
+      "name": "Daily"
+    },
+    {
+      "code": "2",
+      "name": "weekly"
+    },
+    {
+      "code": "3",
+      "name": "monthly"
+    },
+    {
+      "code": "4",
+      "name": "yearly"
+    }
+  ]
+}
+
+= Get All plans
+
+GET http://domainname:9191/plan/
+
+Response body
+
+[
+{
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  }
+,
+{
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  }
+
+
+]
+
+= Get single plan
+
+GET http://domainname:9191/plan/{planId}
+
+Response body 
+
+ {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat  Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  }

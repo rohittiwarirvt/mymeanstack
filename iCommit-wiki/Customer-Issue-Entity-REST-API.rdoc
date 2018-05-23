@@ -1,0 +1,107 @@
+= Submit new client issue
+
+POST http://domainname:9191/issues/
+
+
+Request body:
+Nikhil:should we just submit client id/subscription id or the entire object
+
+
+{
+  "clientID": 1,
+  "subscriptionId": 2,
+  "category": "payments",
+  "status": "submitted",
+  "description": "payment skipped"
+}
+
+Response body:
+
+{
+  "client": {},
+  "subscription":{},
+  "category": "payments",
+  "status": "submitted",
+  "description": "payment skipped"
+}
+
+= Template API for client issues form
+
+GET  http://domainname:9191/issues/template
+
+Response body:
+
+{
+  "status": [
+    {
+      "code": 1,
+      "name": "submitted"
+    },
+    {
+      "code": 2,
+      "name": "resolved"
+    },
+    {
+      "code": 3,
+      "name": "being investigated"
+    }
+  ],
+  "cateory": [
+    {
+      "code": 1,
+      "name": "payments"
+    },
+    {
+      "code": 2,
+      "name": "foreclosure"
+    },
+    {
+      "code": 3,
+      "name": "vouchers"
+    },
+    {
+      "code": 4,
+      "name": "products"
+    },
+    {
+      "code": 5,
+      "name": "subscription"
+    },
+    {
+      "code": 5,
+      "name": "others"
+    }
+  ]
+}
+
+= Get all client issues
+
+GET  http://domainname:9191/issues
+
+[{
+  "client": {// entire object },
+  "subscription": {// entire subscription object},
+  "category": "payments",
+  "status": "submitted",
+  "description": "payment skipped"
+},
+{
+  "client": {// entire object },
+  "subscription": {// entire subscription object},
+  "category": "payments",
+  "status": "submitted",
+  "description": "payment skipped"
+}
+]
+
+= Get all client issues
+
+GET  http://domainname:9191/issues/{id}
+
+{
+  "client": {// entire object },
+  "subscription": {// entire subscription object},
+  "category": "payments",
+  "status": "submitted",
+  "description": "payment skipped"
+}

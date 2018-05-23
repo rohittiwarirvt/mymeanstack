@@ -1,0 +1,380 @@
+= Add new supplier
+
+POST http://domainname:9191/suppliers
+
+request body:
+
+{
+  "name": "Rowlletes assoc",
+ "address": {
+    "street": "103 w st",
+    "chiefdom": "nyc",
+    "district": "nycd",
+    "location": {
+      "x":1234,
+      "y": 456
+    }
+  }
+}
+
+Response body:
+
+{
+  "id": 1,
+  "name": "Rowlletes assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  }
+}
+
+= Update Supplier
+
+PUT http://domainname:9191/suppliers/{supplierId}
+
+request body:
+
+{
+  "name": "Rowlletes assoc",
+ "address": {
+    "street": "103 w st",
+    "chiefdom": "nyc",
+    "district": "nycd",
+    "location": {
+      "x":1234,
+      "y": 456
+    }
+  }
+}
+
+Response body:
+
+{
+  "id": 1,
+  "name": "Rowlletes assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  }
+}
+
+= Template api for supplier page
+
+GET  http://domainname:9191/suppliers/template
+{
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "chiefdom": [
+    {
+      "name": "Soho",
+      "code": "SH",
+      "district": "Manhattan"
+    },
+    {
+      "name": "Mountain View",
+      "code": "MV",
+      "district": "BayArea"
+    }
+  ],
+  "disctrict": [
+    {
+      "name": "Manhattan",
+      "code": "MNH"
+    },
+    {
+      "name": "Manhattan",
+      "code": "MNH"
+    }
+  ]
+}
+
+= Get All suppliers
+
+GET http://domainname:9191/suppliers/
+
+{
+[
+{
+  "id": 1,
+  "name": "Rowlletes assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  },
+  "products": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "priceAgreements": [
+        {
+          "unitCost": "110",
+          "startDate": "2018-01-11",
+          "endDate": "2018-12-11"
+        }
+      ],
+      "currency": "USD"
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "ACME assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  },
+  "products": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "priceAgreements": [
+        {
+          "unitCost": "110",
+          "startDate": "2018-01-11",
+          "endDate": "2018-12-11"
+        }
+      ],
+      "currency": "USD"
+    }
+  ]
+}
+]
+}
+
+= Get single supplier
+
+GET http://domainname:9191/suppliers/{supplierId}
+
+Response body:
+
+{
+  "id": 1,
+  "name": "Rowlletes assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  },
+  "products": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "priceAgreements": [
+        {
+          "unitCost": "110",
+          "startDate": "2018-01-11",
+          "endDate": "2018-12-11"
+        }
+      ],
+      "currency": "USD"
+    }
+  ]
+}
+
+= Add new supplier product line to supplier
+
+POST http://domainname:9191/suppliers/{supplierId}/products
+
+Request body: 
+[
+  {
+    "productId": 1
+  },
+  {
+    "productId": 2
+  },
+  {
+    "productId": 3
+  }
+]
+
+
+Response body:
+
+{
+  "id": 1,
+  "name": "Rowlletes assoc",
+  "address": {
+    "street": "103 w st",
+    "chiefdom": {
+      "name": "soho",
+      "code": "nyc",
+      "district": "financial dist"
+    },
+    "district": {
+      "code": "NY",
+      "name": "New York"
+    },
+    "location": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          10.1
+        ]
+      },
+      "properties": {
+        "name": "Dinagat Islands"
+      }
+    }
+  },
+  "products": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "priceAgreements": [
+        {
+          "unitCost": "110",
+          "startDate": "2018-01-11",
+          "endDate": "2018-12-11"
+        }
+      ],
+      "currency": "USD"
+    }
+  ]
+}
+
+

@@ -1,0 +1,123 @@
+= Add admin user
+
+POST  http://domainname:9191/users/
+
+Request body:
+
+{
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+  "roles": [
+    {
+      "role": "admin"
+    }
+  ]
+}
+
+Response body:
+
+{
+  "id": 1,
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+ "roles": [
+    {
+      "authority": "ROLE_ADMIN",
+      "role": "Admin"
+    }
+  ]
+}
+
+
+= update admin user
+
+POST  http://domainname:9191/users/{userId}
+
+Request body:
+
+{
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+  "roles": [
+    {
+      "role": "admin"
+    }
+  ]
+}
+
+Response body:
+
+{
+  "id": 1,
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+  "roles": [
+    {
+      "authority": "ROLE_ADMIN",
+      "role": "Admin"
+    }
+  ]
+}
+
+= Get all users
+
+GET http://domainname:9191/users/
+
+Response body:
+[
+{
+  "id": 1,
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+  "roles": [
+    {
+      "authority": "ROLE_ADMIN",
+      "role": "Admin"
+    }
+  ]
+},
+{
+  "id": 2,
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+   "roles": [
+    {
+      "authority": "ROLE_ADMIN",
+      "role": "Admin"
+    }
+  ]
+}
+]
+
+
+= Fetch single user
+
+GET http://domainname:9191/users/{userId}
+
+response body
+
+{
+  "id": 1,
+  "email": "zayn@gmail.com",
+  "username": "yyn123",
+  "password": "qwerty",
+  "phone": "123456780",
+ "roles": [
+    {
+      "authority": "ROLE_ADMIN",
+      "role": "Admin"
+    }
+  ]
+}

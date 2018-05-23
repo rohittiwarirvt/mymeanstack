@@ -1,0 +1,129 @@
+= create product
+
+POST http://domainname:9191/product/
+
+Request body:
+{
+  "name": "Onion seeds",
+  "description": "white onion seeds",
+  "unitOfMeasure": "Kilograms",
+  "defaultUnitCost": 140,
+  "currency": "USD"
+}
+
+Response body
+
+{
+  "id": 1,
+  "name": "Onion seeds",
+  "description": "white onion seeds",
+  "unitOfMeasure": {
+    "code": "Kilograms"
+  },
+  "defaultUnitCost": 140,
+  "currency": "USD"
+}
+
+= Update product API
+
+PUT http://domainname:9191/product/{productId}
+
+Request body:
+{
+  "name": "Onion seeds",
+  "description": "white onion seeds",
+  "unitOfMeasure": "Kilograms",
+  "defaultUnitCost": 140,
+  "currency": "USD"
+}
+
+Response body
+
+{
+  "id": 1,
+  "name": "Onion seeds",
+  "description": "white onion seeds",
+  "unitOfMeasure": {
+    "code": "Kilograms"
+  },
+  "defaultUnitCost": 140,
+  "currency": "USD"
+}
+
+= Template API for product page
+
+GET http://domainname:9191/product/template
+
+response body
+
+{
+  "unit": [
+    {
+      "code": "units",
+      "name": "Units"
+    },
+    {
+      "code": "kilograms",
+      "name": "Kilograms"
+    }
+  ],
+  "currency": [
+    {
+      "code": "1",
+      "name": "USD"
+    },
+    {
+      "code": "2",
+      "name": "EUR"
+    },
+    {
+      "code": "3",
+      "name": "SLL"
+    }
+  ]
+}
+
+= Get all products
+
+GET http://domainname:9191/product/
+
+[
+{
+  "id": 1,
+  "name": "Onion seeds",
+  "description": "white onion seeds",
+  "unitOfMeasure": {
+    "code": "Kilograms"
+  },
+  "defaultUnitCost": 140,
+  "currency": "USD"
+}
+,
+{
+  "id": 1,
+  "name": "Apple seeds",
+  "description": "Gala Apple seeds",
+  "unitOfMeasure": {
+    "code": "Kilograms"
+  },
+  "defaultUnitCost": 180,
+  "currency": "USD"
+}
+
+]
+
+= Get single product
+
+GET http://domainname:9191/product/{productId}
+
+
+{
+  "id": 1,
+  "name": "Apple seeds",
+  "description": "Gala Apple seeds",
+  "unitOfMeasure": {
+    "code": "Kilograms"
+  },
+  "defaultUnitCost": 180,
+  "currency": "USD"
+}

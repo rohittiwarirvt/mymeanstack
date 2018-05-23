@@ -1,0 +1,1 @@
+The backend of the application is based on the Spring boot framework, and is powered by a MongoDB database.

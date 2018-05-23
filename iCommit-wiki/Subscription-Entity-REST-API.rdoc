@@ -1,0 +1,845 @@
+= Create subscription
+
+POST http://domainname:9191/subscription/
+
+Request body:
+
+{
+  "currency": "USD",
+  "installmentAmount": 1500,
+  "customerId": 1,
+  "start": "2018-01-01",
+  "end": "2018-12-31",
+  "planId": 1,
+  "interval": "daily",
+  "intervalUnits": 1,
+  "targetAmount": 15000,
+  "cashoutDate": "2018-12-31",
+  "productLines": [
+    {
+      "productId": 1,
+      "supplierId": 3,
+      "quantity": 4,
+      "metadata": {
+        "name": "ritz",
+        "age": 12
+      }
+    }
+  ],
+  "metadata": {
+    "name": "antony",
+    "age": 34
+  }
+}
+
+Response Body (Assuming entire object is returned)
+
+{
+  "id": 1,
+  "balance": "3000",
+  "currency": "USD",
+  "installmentAmount": "1500",
+  "customer": {},
+  "startDate": "2018-02-12",
+  "endDate": "2018-08-12",
+  "nextPaymentDate": "2018-05-12",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "state": "Active",
+  "subscriptionLines": [
+    {
+      "expectedDate": "2018-04-12",
+      "charged": "true",
+      "notified": "true",
+      "paymentReceived": "true",
+      "amountExpected": "1500",
+      "amountReceived": "1500",
+      "transaction": [
+        {
+          "id": 1,
+          "amount": 1500,
+          "type": "deposit",
+          "prebalance": 1500,
+          "currency": "USD",
+          "customer": {}
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ],
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "interval": "monthly",
+  "intervalUnits": 1,
+  "targetAmount": "12000",
+  "cashoutDate": "2018-08-12",
+  "cashedOut": "false",
+  "active": "true",
+  "stateChangeOn": "2018-02-12",
+  "metadata": {
+    "name": "antony",
+    "age": 34
+  }
+}
+
+= Update Subscription
+
+PUT http://domainname:9191/subscription/{subscriptionId}
+
+Request body:
+
+{
+  "currency": "USD",
+  "installmentAmount": 1500,
+  "enforeInstallmentAmount": false,
+  "start": "2018-01-01",
+  "end": "2018-12-31",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": "Soho",
+          "district": "Manhattan",
+          "location": {
+            "x": 125.6,
+            "y": 10.1
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "productLines": [
+    {
+      "productId": 1,
+      "supplierId": 3,
+      "quantity": 4,
+      "metadata": {
+        "name": "ritz",
+        "age": 12
+      }
+    }
+  ],
+  "metadata": {
+    "name": "antony",
+    "age": 34
+  },
+  "interval": "daily",
+  "targetAmount": 15000,
+  "cashoutDate": "2018-12-31"
+}
+
+Response body:
+
+{
+  "id": 1,
+  "balance": "3000",
+  "currency": "USD",
+  "installmentAmount": "1500",
+  "customer": {},
+  "startDate": "2018-02-12",
+  "endDate": "2018-08-12",
+  "nextPaymentDate": "2018-05-12",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "state": "Active",
+  "subscriptionLines": [
+    {
+      "expectedDate": "2018-04-12",
+      "charged": "true",
+      "notified": "true",
+      "paymentReceived": "true",
+      "amountExpected": "1500",
+      "amountReceived": "1500",
+      "transaction": [
+        {
+          "id": 1,
+          "amount": 1500,
+          "type": "deposit",
+          "prebalance": 1500,
+          "currency": "USD",
+          "customer": {}
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ],
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "interval": "monthly",
+  "intervalUnits": 1,
+  "targetAmount": "12000",
+  "cashoutDate": "2018-08-12",
+  "cashedOut": "false",
+  "active": "true",
+  "stateChangeOn": "2018-02-12",
+  "metadata": {
+    "name": "antony",
+    "age": 34
+  }
+}
+
+
+= Fetch single subscription
+
+GET http://domainname:9191/subscription/{subscriptionId}
+
+response body
+
+{
+  "balance": "3000",
+  "currency": "USD",
+  "installmentAmount": "1500",
+  "customer": {},
+  "startDate": "2018-02-12",
+  "endDate": "2018-08-12",
+  "nextPaymentDate": "2018-05-12",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "state": "Active",
+  "subscriptionLines": [
+    {
+      "expectedDate": "2018-04-12",
+      "charged": "true",
+      "notified": "true",
+      "paymentReceived": "true",
+      "amountExpected": "1500",
+      "amountReceived": "1500",
+      "transaction": [
+        {
+          "id": 1,
+          "amount": 1500,
+          "type": "deposit",
+          "prebalance": 1500,
+          "currency": "USD",
+          "customer": {}
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ],
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "interval": "monthly",
+  "intervalUnits": 1,
+  "targetAmount": "12000",
+  "cashoutDate": "2018-08-12",
+  "cashedOut": "false",
+  "active": "true",
+  "stateChangeOn": "2018-02-12"
+}
+
+= close subscription
+
+POST http://domainname:9191/subscription/{subscriptionId}/close
+
+request body
+
+{
+   //empty
+}
+
+Response body (return subscription with active as false)
+
+{
+  "balance": "3000",
+  "currency": "USD",
+  "installmentAmount": "1500",
+  "customer": {},
+  "startDate": "2018-02-12",
+  "endDate": "2018-08-12",
+  "nextPaymentDate": "2018-05-12",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "state": "Active",
+  "subscriptionLines": [
+    {
+      "expectedDate": "2018-04-12",
+      "charged": "true",
+      "notified": "true",
+      "paymentReceived": "true",
+      "amountExpected": "1500",
+      "amountReceived": "1500",
+      "transaction": [
+        {
+          "id": 1,
+          "amount": 1500,
+          "type": "deposit",
+          "prebalance": 1500,
+          "currency": "USD",
+          "customer": {}
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ],
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "interval": "monthly",
+  "intervalUnits": 1,
+  "targetAmount": "12000",
+  "cashoutDate": "2018-08-12",
+  "cashedOut": "false",
+  "active": "false",
+  "stateChangeOn": "2018-02-12"
+}
+
+= cashout subscription
+
+POST http://domainname:9191/subscription/{subscriptionId}/cashout
+
+request body
+
+{
+  "dateOfCashout": "2018-05-14"
+}
+
+Response body
+
+{
+  "balance": "3000",
+  "currency": "USD",
+  "installmentAmount": "1500",
+  "customer": {},
+  "startDate": "2018-02-12",
+  "endDate": "2018-08-12",
+  "nextPaymentDate": "2018-05-12",
+  "plan": {
+    "id": "1",
+    "name": "white onion term plan",
+    "fixedTerm": "false",
+    "installments": 6,
+    "enforceInstallmentAmount": "false",
+    "interval": "Monthly",
+    "intervalUnits": 1,
+    "active": "true",
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Mark assoc",
+        "address": {
+          "street": "104 border st",
+          "chiefdom": {
+            "name": "Soho",
+            "code": "SH",
+            "district": "Manhattan"
+          },
+          "district": {
+            "name": "Manhattan",
+            "code": "MNH"
+          },
+          "location": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                125.6,
+                10.1
+              ]
+            },
+            "properties": {
+              "name": "Dinagat Islands"
+            }
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "name": "onion seed",
+              "description": "while onion seeds",
+              "unitOfMeasure": "Kilograms",
+              "defaultUnitCost": "150",
+              "currency": "USD"
+            },
+            "priceAgreements": [
+              {
+                "unitCost": "110",
+                "startDate": "2018-01-11",
+                "endDate": "2018-12-11"
+              }
+            ],
+            "currency": "USD"
+          }
+        ]
+      }
+    ]
+  },
+  "state": "Active",
+  "subscriptionLines": [
+    {
+      "expectedDate": "2018-04-12",
+      "charged": "true",
+      "notified": "true",
+      "paymentReceived": "true",
+      "amountExpected": "1500",
+      "amountReceived": "1500",
+      "transaction": [
+        {
+          "id": 1,
+          "amount": 1500,
+          "type": "deposit",
+          "prebalance": 1500,
+          "currency": "USD",
+          "customer": {}
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ],
+  "productLines": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "interval": "monthly",
+  "intervalUnits": 1,
+  "targetAmount": "12000",
+  "cashoutDate": "2018-08-12",
+  "cashedOut": "true",
+  "active": "false",
+  "stateChangeOn": "2018-02-12"
+}
+
+= create subscription line
+
+POST http://domainname:9191/subscription/subscriptionProduct
+
+Request body:
+
+{
+  "productId": 1,
+  "supplierId": 2,
+  "quantity": 5,
+  "metadata": [
+    {
+      "any": "random stuff"
+    }
+  ]
+}
+
+Response body
+
+{
+  "product": {
+    "id": "1",
+    "name": "onion seed",
+    "description": "while onion seeds",
+    "unitOfMeasure": "Kilograms",
+    "defaultUnitCost": "150",
+    "currency": "USD"
+  },
+  "quantity": 120,
+  "unitCost": 10,
+  "totalCost": 1200,
+  "currency": "USD",
+  "metadata": [
+    {
+      "any": "random stuff"
+    }
+  ]
+}
+
+
+= perform transaction on subscription
+
+POST http://domainname:9191/subscription/{subscriptionId}/transaction
+
+Nikhil: no DTO for transction, what should be referred for making the request body?
+
+request body
+{
+  "customerId": 12,
+  "amount": 1500,
+  "type": "deposit",
+  "currency": "USD"
+}
+
+Response body
+
+{
+  "id": 2,
+  "customer": {},
+  "amount": 1500,
+  "type": "deposit",
+  "currency": "USD",
+  "preBalance": 3000
+}

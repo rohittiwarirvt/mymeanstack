@@ -1,0 +1,109 @@
+= claim voucher
+
+POST http://domainname:9191/vouchers/{id}
+
+Request body
+
+{
+  "supplierId": 1,
+  "code": "12323dasdd"
+}
+
+Response body
+{
+  "id": 1,
+  "name": "white onion seed 6 monthly voucher",
+  "customer": {},
+  "supplier": {},
+  "subscription": {},
+  "transaction": {
+    "id": 1,
+    "amount": 1500,
+    "type": "deposit",
+    "prebalance": 1500,
+    "currency": "USD",
+    "customer": {}
+  },
+  "state": {
+            "code":"claimed"
+           },
+  "stateChangeOn": "2018-09-16",
+  "validUntil": "2018-09-16"
+}
+
+= Get all vouchers
+
+GET http://domainname:9191/vouchers/
+
+Response body
+
+[
+{
+  "id": 1,
+  "name": "white onion seed 6 monthly voucher",
+  "customer": {},
+  "supplier": {},
+  "subscription": {},
+  "transaction": {
+    "id": 1,
+    "amount": 1500,
+    "type": "deposit",
+    "prebalance": 1500,
+    "currency": "USD",
+    "customer": {}
+  },
+  "state": {
+            "code":"claimed"
+           },
+  "stateChangeOn": "2018-09-16",
+  "validUntil": "2018-09-16"
+},
+{
+  "id": 1,
+  "name": "Fuji apples seed 6 monthly voucher",
+  "customer": {},
+  "supplier": {},
+  "subscription": {},
+  "transaction": {
+    "id": 1,
+    "amount": 1500,
+    "type": "deposit",
+    "prebalance": 1500,
+    "currency": "USD",
+    "customer": {}
+  },
+ "state": {
+            "code":"claimed"
+           },
+  "stateChangeOn": "2018-09-16",
+  "validUntil": "2018-09-16"
+}
+]
+
+
+= Fetch single voucher:
+
+GET http://domainname:9191/vouchers/{id}
+
+Response body:
+
+{
+  "id": 1,
+  "name": "white onion seed 6 monthly voucher",
+  "customer": {},
+  "supplier": {},
+  "subscription": {},
+  "transaction": {
+    "id": 1,
+    "amount": 1500,
+    "type": "deposit",
+    "prebalance": 1500,
+    "currency": "USD",
+    "customer": {}
+  },
+  "state": {
+            "code":"claimed"
+           },
+  "stateChangeOn": "2018-09-16",
+  "validUntil": "2018-09-16"
+}
