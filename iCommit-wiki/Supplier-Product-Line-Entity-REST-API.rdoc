@@ -1,0 +1,69 @@
+= Create new supplier product line
+
+POST http://domainname:9191/supplierProductLine/
+
+Request body:
+
+{
+      "productId": 1,
+      "priceAgreements": [
+        {
+          "unitCost": "110",
+          "startDate": "2018-01-11",
+          "endDate": "2018-12-11"
+        }
+      ],
+      "currency": "USD"
+    }
+
+= Template API for supplier product line
+
+GET http://domainname:9191/supplierProductLine/template
+
+Response
+{
+  "products": [
+    {
+      "product": {
+        "id": "1",
+        "name": "onion seed",
+        "description": "while onion seeds",
+        "unitOfMeasure": "Kilograms",
+        "defaultUnitCost": "150",
+        "currency": "USD"
+      },
+      "quantity": 120,
+      "unitCost": 10,
+      "totalCost": 1200,
+      "currency": "USD"
+    }
+  ],
+  "unit": [
+    {
+      "code": "units",
+      "name": "Units"
+    },
+    {
+      "code": "kilograms",
+      "name": "Kilograms"
+    }
+  ],
+  "currency": [
+    {
+      "code": "1",
+      "name": "USD"
+    },
+    {
+      "code": "2",
+      "name": "EUR"
+    },
+    {
+      "code": "units",
+      "name": "Units"
+    },
+    {
+      "code": "kilograms",
+      "name": "Kilograms"
+    }
+  ]
+}

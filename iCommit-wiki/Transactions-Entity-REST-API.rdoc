@@ -1,0 +1,37 @@
+= Fetch all transaction in the system
+
+GET http://domainname:9191/transactions/
+
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    },
+    {
+      "id": 1,
+      "amount": 1500,
+      "type": "deposit",
+      "prebalance": 1500,
+      "currency": "USD",
+      "customer": {}
+    }
+  ]
+}
+
+= Fetch single transaction
+
+GET http://domainname:9191/transactions/{transactionID}
+
+{
+  "id": 1,
+  "amount": 1500,
+  "type": "deposit",
+  "prebalance": 1500,
+  "currency": "USD",
+  "customer": {}
+}

@@ -1,0 +1,38 @@
+= Customer Entity Rest API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Customer-Entity-REST-API
+
+= Subscription Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Subscription-Entity-REST-API
+
+= Supplier Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Supplier-Entity-REST-API
+
+= Product Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Product-Entity-REST-API
+
+= Plan  Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Plan--Entity-REST-API
+
+= Client Issue Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Customer-Issue-Entity-REST-API
+
+= Admin User Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Admin-User-Entity-REST-API
+
+= Voucher Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Vouchers-Entity-Admin-API
+
+= Transactions Entity REST API
+
+https://github.com/idtlabs-xyz/iCommit/wiki/Transactions-Entity-REST-API
+
+
+
