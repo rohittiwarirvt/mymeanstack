@@ -36,3 +36,6 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+learn/proexpressjs/ch6/index.js
+learn/Node-express-boilerplate/
+loopback/
