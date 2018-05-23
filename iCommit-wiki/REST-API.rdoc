@@ -1,18 +1,18 @@
-= Authentication
+== Authentication
 
 post http://domainname:9191/authentication
-
+```
 {
   "username": "icommit",
   "password": "admin"
 }
-
-= create customer
+```
+== create customer
 
 post http://domainname:9191/customer
 
 Request body
-
+```
 {
   "name": "John Oliver",
   "phone": "1234567890",
@@ -47,14 +47,15 @@ Request body
   },
   "userId": "what-ever-user-id-is"
 }
-
-= edit customer
+```
+== edit customer
 post http://domainname:9191/customer/edit/{clientId}
 
 Note: "send the fields of customer to be edited in request body"
 Query: are all fields editable?
 
 request body:
+```
 {
 
   "district": {
@@ -62,14 +63,14 @@ request body:
       "name": "Tarrant County"
     }
 }
+```
 
-
-= customer template
+== customer template
 
 GET http://domainname:9191/customers/template
 
 Response body
-
+```
 {
   "identification": [
     {
@@ -92,14 +93,14 @@ Response body
     }
   ]
 }
-
-= List all clients
+```
+== List all clients
 
 GET http://domainname:9191/customers
 
 Response
 
-
+```
   [
     {
       "name": "John Oliver",
@@ -202,12 +203,13 @@ Response
       "submittedby": 12
     }
   ]
+```
 
+== Fetch single client
 
-= Fetch single client
 
 GET http://domainname:9191/customers/{id}
-
+```
 {
   "name": "John Oliver",
   "phone": "1234567890",
@@ -258,14 +260,14 @@ GET http://domainname:9191/customers/{id}
   },
   "submittedby": 12
 }
-
-= client's subscription
+```
+== client's subscription
 
 GET http://domainname:9191/customers/{clientId}/subscription/
 
 response body
-[
-{
+```
+[{
   "balance": "3000",
   "currency": "USD",
   "installmentAmount": "1500",
@@ -388,13 +390,12 @@ response body
   "cashedOut": "false",
   "active": "true",
   "stateChangeOn": "2018-02-12"
-}
-]
-
-= Fetch all transactions of Client
+}]
+```
+== Fetch all transactions of Client
 
 GET http://domainname:9191/customers/{clientId}/transactions/
-
+```
 [
   {
     "id": 1,
@@ -413,12 +414,13 @@ GET http://domainname:9191/customers/{clientId}/transactions/
     "customer": {}
   }
 ]
+```
 
-
-= Fetch Client's All Vouchers
+== Fetch Client's All Vouchers
 
 GET http://domainname:9191/customers/{clientId}/vouchers/
 
+```
 [
   {
     "id": 1,
@@ -487,12 +489,13 @@ GET http://domainname:9191/customers/{clientId}/vouchers/
     "stateChangeOn": "2018-08-12"
   }
 ]
-
-= Fetch all Issues of Client
+```
+== Fetch all Issues of Client
 
 GET http://domainname:9191/customers/{clientId}/issues/
 
 response body
+```
 [
   {
     "category": "payments",
@@ -509,14 +512,14 @@ response body
     "dateSubmitted": "2018-04-28"
   }
 ]
+```
 
-
-= Fetch single subscription
+== Fetch single subscription
 
 GET http://domainname:9191/subscription/{subscriptionId}
 
 response body
-
+```
 {
   "balance": "3000",
   "currency": "USD",
@@ -641,42 +644,45 @@ response body
   "active": "true",
   "stateChangeOn": "2018-02-12"
 }
-
-= close subscription
+```
+== close subscription
 
 POST http://domainname:9191/subscription/{subscriptionId}/close
 
 request body
-{//empty
-}
-
-= cashout subscription
+```
+{}
+```
+== cashout subscription
 
 POST http://domainname:9191/subscription/{subscriptionId}/cashout
 
 request body
+```
 {
 "dateOfCashout":"2018-05-14"
 }
-
-= perform transaction on subscription
+```
+== perform transaction on subscription
 
 POST http://domainname:9191/subscription/{subscriptionId}/transaction
 
 request body
+```
 {
 "customerId":12,
 "amount":1500,
 "type":"deposit",   // value can be withdrawal
 "currency"="USD"
 }
+```
 
-= Add new supplier
+== Add new supplier
 
 POST http://domainname:9191/suppliers
 
 request body:
-
+```
 {
   "name": "Rowlletes assoc",
   "address": {
@@ -704,7 +710,7 @@ request body:
       }
     }
   },
-  "products": [     // optional       
+  "products": [     // optional
     {
       "productId":1 ,             "Nikhil": do we just pass product id or is it necessary to pass entire object
       "priceAgreements": [
@@ -718,10 +724,11 @@ request body:
     }
   ]
 }
-
-= Template api for supplier page
+```
+== Template api for supplier page
 
 GET  http://domainname:9191/suppliers/template
+```
 {
   "productLines": [
     {
@@ -762,14 +769,12 @@ GET  http://domainname:9191/suppliers/template
     }
   ]
 }
-
-= Get All suppliers
+```
+== Get All suppliers
 
 GET http://domainname:9191/suppliers/
-
-{
-[
-{
+```
+{[{
   "name": "Rowlletes assoc",
   "address": {
     "street": "104 border st",
@@ -796,7 +801,7 @@ GET http://domainname:9191/suppliers/
       }
     }
   },
-  "products": [     // optional       
+  "products": [     // optional
     {
       "productId":1 ,             "Nikhil": do we just pass product id or is it necessary to pass entire object
       "priceAgreements": [
@@ -837,7 +842,7 @@ GET http://domainname:9191/suppliers/
       }
     }
   },
-  "products": [     // optional       
+  "products": [     // optional
     {
       "productId":1 ,             "Nikhil": do we just pass product id or is it necessary to pass entire object
       "priceAgreements": [
@@ -850,16 +855,14 @@ GET http://domainname:9191/suppliers/
       "currency": "USD"
     }
   ]
-}
-]
-}
-
-= Get single supplier
+}]}
+```
+== Get single supplier
 
 GET http://domainname:9191/suppliers/{supplierId}
 
 Response body:
-
+```
 {
   "name": "Rowlletes assoc",
   "address": {
@@ -887,7 +890,7 @@ Response body:
       }
     }
   },
-  "products": [     // optional       
+  "products": [     // optional
     {
       "productId":1 ,             "Nikhil": do we just pass product id or is it necessary to pass entire object
       "priceAgreements": [
@@ -901,13 +904,15 @@ Response body:
     }
   ]
 }
+```
 
-
-= Add new supplier product line to supplier
+== Add new supplier product line to supplier
 
 POST http://domainname:9191/suppliers/{supplierId}/products
 
-Request body: 
+Request body:
+
+```
 {
 "products": [     // optional
     {
@@ -923,13 +928,13 @@ Request body:
     }
   ]
 }
-
-= Create new supplier product line
+```
+== Create new supplier product line
 
 POST http://domainname:9191/supplierProductLine/
 
 Request body:
-
+```
 {
       "productId": 1,
       "priceAgreements": [
@@ -941,12 +946,13 @@ Request body:
       ],
       "currency": "USD"
     }
-
-= Template API for supplier product line
+```
+== Template API for supplier product line
 
 GET http://domainname:9191/supplierProductLine/template
 
 Response
+```
 {
   "products": [
     {
@@ -993,13 +999,14 @@ Response
     }
   ]
 }
+```
 
-
-= create product
+== create product
 
 POST http://domainname:9191/product/
 
 Request body:
+```
 {
   "name": "Onion seeds",
   "description": "white onion seeds",
@@ -1007,13 +1014,13 @@ Request body:
   "defaultUnitCost": 140,
   "currency": "USD"
 }
-
-= Template API for product page
+```
+== Template API for product page
 
 GET http://domainname:9191/product/template
 
 response body
-
+```
 {
   "unit": [
     {
@@ -1040,11 +1047,12 @@ response body
     }
   ]
 }
-
-= Get all products
+```
+== Get all products
 
 GET http://domainname:9191/product/
 
+```
 [
 {
   "name": "Onion seeds",
@@ -1061,12 +1069,12 @@ GET http://domainname:9191/product/
   "currency": "USD"
 }
 ]
-
-= Get single product
+```
+== Get single product
 
 GET http://domainname:9191/product/{productId}
 
-
+```
 {
   "name": "Onion seeds",
   "description": "white onion seeds",
@@ -1074,14 +1082,14 @@ GET http://domainname:9191/product/{productId}
   "defaultUnitCost": 140,
   "currency": "USD"
 }
-
-= Add new plan
+```
+== Add new plan
 
 POST http://domainname:9191/plan/
 
 Nikhil: same question here- do we need full objects of products, units etc
-
 Request body:
+```
 {
   "plan": {
     "name": "white onion term plan",
@@ -1144,14 +1152,14 @@ Request body:
     ]
   }
 }
+```
 
-
-= Template API for plan form
+== Template API for plan form
 
 GET http://domainname:9191/plan/template
 
 Response body:
-
+```
 {
   "suppliers": [
     {
@@ -1223,13 +1231,13 @@ Response body:
     }
   ]
 }
-
-= Get All plans
+```
+== Get All plans
 
 GET http://domainname:9191/plan/
 
 Response body
-
+```
 [
 {
         "id":"1",
@@ -1268,7 +1276,7 @@ Response body
                                                         "name": "Dinagat                     Islands"
                                                              }
                                             }
-               
+
                                   },
                         "products":[
                                     {
@@ -1289,8 +1297,8 @@ Response body
                                         ],
                                         "currency":"USD"
                                     }
-                                    ]          
-                      
+                                    ]
+
                       }
                     ]
         },
@@ -1331,7 +1339,7 @@ Response body
                                                         "name": "Dinagat                     Islands"
                                                              }
                                             }
-               
+
                                   },
                         "products":[
                                     {
@@ -1352,20 +1360,21 @@ Response body
                                         ],
                                         "currency":"USD"
                                     }
-                                    ]          
-                      
+                                    ]
+
                       }
                     ]
         }
 
 ]
-
-= Get single plan
+```
+== Get single plan
 
 GET http://domainname:9191/plan/{planId}
 
-Response body 
+Response body
 
+```
  {
     "id": "1",
     "name": "white onion term plan",
@@ -1427,8 +1436,8 @@ Response body
       }
     ]
   }
-
-= Submit new client issue
+```
+== Submit new client issue
 
 POST http://domainname:9191/issues/
 
@@ -1436,7 +1445,7 @@ POST http://domainname:9191/issues/
 Request body:
 Nikhil:should we just submit client id/subscription id or the entire object
 
-
+```
 {
   "client": {},
   "subscription": {},
@@ -1444,13 +1453,13 @@ Nikhil:should we just submit client id/subscription id or the entire object
   "status": "submitted",
   "description": "payment skipped"
 }
-
-= Template API for client issues form
+```
+== Template API for client issues form
 
 GET  http://domainname:9191/issues/template
 
 Response body:
-
+```
 {
   "status": [
     {
@@ -1493,11 +1502,11 @@ Response body:
     }
   ]
 }
-
-= Get all client issues
+```
+== Get all client issues
 
 GET  http://domainname:9191/issues
-
+```
 [{
   "client": {// entire object },
   "subscription": {// entire subscription object},
@@ -1513,11 +1522,11 @@ GET  http://domainname:9191/issues
   "description": "payment skipped"
 }
 ]
-
-= Get all client issues
+```
+== Get all client issues
 
 GET  http://domainname:9191/issues/{id}
-
+```
 {
   "client": {// entire object },
   "subscription": {// entire subscription object},
@@ -1525,24 +1534,27 @@ GET  http://domainname:9191/issues/{id}
   "status": "submitted",
   "description": "payment skipped"
 }
-
-= Add admin user
+```
+== Add admin user
 
 POST  http://domainname:9191/users/
 
 Request body:
+```
 {
 "name":"Zayn",
 "username":"yyn123",
 "password":"qwerty"
 "status":"active"
 }
-
-= Get all users
+```
+== Get all users
 
 GET http://domainname:9191/users/
 
 Response body:
+
+```
 [
 {
 "id":1,
@@ -1559,14 +1571,14 @@ Response body:
   "activeSince": "2016-03-1"
 }
 ]
+```
 
-
-= Fetch single user
+== Fetch single user
 
 GET http://domainname:9191/users/{userId}
 
 response body
-
+```
 {
 "id":2
   "name": "Zayn",
@@ -1574,13 +1586,13 @@ response body
   "username": "zyn123",
   "activeSince": "2016-03-1"
 }
-
-= Get all vouchers
+```
+== Get all vouchers
 
 GET http://domainname:9191/vouchers/
 
 Response body
-
+```
 [
 {
   "id": 1,
@@ -1619,14 +1631,15 @@ Response body
   "validUntil": "2018-09-16"
 }
 ]
+```
 
-
-= Fetch single voucher:
+== Fetch single voucher:
 
 GET http://domainname:9191/vouchers/{id}
 
 Response body:
 
+```
 {
   "id": 1,
   "name": "white onion seed 6 monthly voucher",
@@ -1645,11 +1658,11 @@ Response body:
   "stateChangeOn": "2018-09-16",
   "validUntil": "2018-09-16"
 }
-
-= Fetch all transaction in the system
+```
+== Fetch all transaction in the system
 
 GET http://domainname:9191/transactions/
-
+```
 {
   "transactions": [
     {
@@ -1670,11 +1683,12 @@ GET http://domainname:9191/transactions/
     }
   ]
 }
-
-= Fetch single transaction
+```
+== Fetch single transaction
 
 GET http://domainname:9191/transactions/{transactionID}
 
+```
 {
   "id": 1,
   "amount": 1500,
@@ -1683,12 +1697,14 @@ GET http://domainname:9191/transactions/{transactionID}
   "currency": "USD",
   "customer": {}
 }
-
+```
 = Fetch all products
 
 GET http://domainname:9191/products/
 
 response body:
+
+```
 [
 {
   "name": "Onion seeds",
@@ -1705,11 +1721,11 @@ response body:
   "currency": "USD"
 }
 ]
-
-= Fetch all product by id/name
+```
+== Fetch all product by id/name
 
 GET http://domainname:9191/products/{id}
-
+```
 {
   "name": "Onion seeds",
   "description": "white onion seeds",
@@ -1717,3 +1733,4 @@ GET http://domainname:9191/products/{id}
   "defaultUnitCost": 140,
   "currency": "USD"
 }
+```
