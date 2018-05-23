@@ -1,0 +1,33 @@
+{
+  "name": "transaction",
+  "plural": "transactions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "amount": {
+      "type": "number",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "prebalance": {
+      "type": "number",
+      "required": true
+    },
+    "currency": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

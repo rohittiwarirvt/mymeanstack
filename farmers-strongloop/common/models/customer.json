@@ -1,0 +1,43 @@
+{
+  "name": "customer",
+  "plural": "customers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "object",
+      "required": true
+    },
+    "identification": {
+      "type": "object",
+      "required": true
+    },
+    "dob": {
+      "type": "object",
+      "required": true
+    },
+    "householdData": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

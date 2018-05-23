@@ -1,0 +1,40 @@
+{
+  "name": "plan",
+  "plural": "plans",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "fixedTerm": {
+      "type": "boolean",
+      "required": true
+    },
+    "installments": {
+      "type": "number",
+      "required": true
+    },
+    "interval": {
+      "type": "string"
+    },
+    "intervalUnits": {
+      "type": "number",
+      "required": true
+    },
+    "suppliers": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
