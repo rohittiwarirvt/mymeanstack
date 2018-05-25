@@ -21,11 +21,16 @@ angular
   'ngSanitize',
   'ngAria',
   '720kb.datepicker'
-  
+
 ])
-.config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+.config(['cfpLoadingBarProvider', '$ocLazyLoadProvider', function(cfpLoadingBarProvider, $ocLazyLoadProvider) {
   cfpLoadingBarProvider.includeSpinner = false;
   cfpLoadingBarProvider.latencyThreshold = 1;
+
+   $ocLazyLoadProvider.config({
+    debug : true,
+
+  });
 }])
 .run(['$rootScope', '$state', '$stateParams', function($rootScope, $state, $stateParams) {
   $rootScope.$on('$stateChangeSuccess',function(){

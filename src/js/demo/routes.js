@@ -283,7 +283,13 @@ angular
                     return $ocLazyLoad.load({
                         files: ['users/new-user/new-user.controller.js']
                     });
-                }]
+                }],
+                loadMyService: ['$ocLazyLoad', function ($ocLazyLoad) {
+                  // you can lazy load user controllers
+                  return $ocLazyLoad.load({
+                      files: ['users/users.service.js']
+                  });
+                }],
             }
         })
 
@@ -492,7 +498,13 @@ angular
             return $ocLazyLoad.load({
               files: ['users/users.controller.js']
             });
-          }]
+          }],
+          loadMyService: ['$ocLazyLoad', function ($ocLazyLoad) {
+            // you can lazy load user controllers
+            return $ocLazyLoad.load({
+                files: ['users/users.service.js']
+            });
+          }],
         }
       })
 
