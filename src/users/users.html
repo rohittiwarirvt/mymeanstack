@@ -18,12 +18,12 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">John Doe</a></td>
-                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">John123</a></td>
-                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">True</a></td>
-                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">2018-02-02</a></td>
-                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">Admin</a></td>
+                            <tr ng-repeat="value in userList">
+                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">{{value.name}}</a></td>
+                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">{{value.username}}</a></td>
+                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">{{value.is_active}}</a></td>
+                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">{{value.activation_update_date}}</a></td>
+                                <td><a class="nav-link" ui-sref-active="active" ui-sref="app.viewuser">{{value.name}}</a></td>
                             </tr>
                         </tbody>
                     </table>

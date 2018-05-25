@@ -2,21 +2,21 @@
 (function() {
     'use strict';
 
-    angular
+  angular
     .module('app')
-    .controller('UsersCtrl',['$scope','$state','$window',UsersCtrl])
+    .controller('UsersCtrl',['$scope','userEntityService', '$log','$window', function UsersCtrl($scope, userEntityService, $log, $window){
+      debugger;
+      $scope.userList = $scope.userList || [];
 
-    /**
-     * @module Users
-     * @description
-     * Controller for the Users Page
-     */
-
-    function UsersCtrl($scope,$state,$window){
-
-        $scope.test = "Users controller successfully loaded";
-
-
-    }
-
+      var getListOfUser = function () {
+        userEntityService
+          .listUser()
+          .then(function(response) {
+            $scope.userList = response.data;
+          }, function(error) {
+              $log.error(error);
+          });
+      }
+      getListOfUser();
+    }]);
 })();

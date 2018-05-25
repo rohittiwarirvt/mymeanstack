@@ -4,10 +4,7 @@ angular
 
   $urlRouterProvider.otherwise('/dashboard');
 
-  $ocLazyLoadProvider.config({
-    // Set to true if you want to see what and when is dynamically loaded
-    debug: true
-  });
+
 
   $breadcrumbProvider.setOptions({
     prefixStateName: 'app.main',
@@ -51,6 +48,15 @@ angular
             'node_modules/angular-chart.js/dist/angular-chart.min.js'
           ]
         }]);
+      }],
+      loadGlobalFiles: ['$ocLazyLoad', function($ocLazyLoad) {
+        return $ocLazyLoad.load([
+          {
+            files: [
+              'src/js/controllers.js',
+              'src/js/services.js'
+          ]}
+        ]);
       }],
     }
   })
