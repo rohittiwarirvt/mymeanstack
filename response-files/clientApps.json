@@ -1,0 +1,4011 @@
+{
+    "data": [
+        {
+            "id": 64,
+            "client": {
+                "clientId": 64,
+                "clientName": "Banner"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "client": {
+                "clientId": 101,
+                "clientName": "BEACON HEALTH"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 15,
+                    "appDescription": "WKCC Provider Portal",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 9,
+                    "appDescription": "Milliman",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 6,
+                    "appDescription": "Patient Registry",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 5,
+                    "appDescription": "Pharmacy",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "client": {
+                "clientId": 68,
+                "clientName": "Best Care Collaborative"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "client": {
+                "clientId": 65,
+                "clientName": "C3"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 80,
+                    "name": "C3 BROCKTON NHC",
+                    "code": "MBB",
+                    "isActive": false
+                },
+                {
+                    "id": 81,
+                    "name": "C3 CHARLES RIVER CH",
+                    "code": "MBC",
+                    "isActive": false
+                },
+                {
+                    "id": 91,
+                    "name": "C3 CHC CAPE COD",
+                    "code": "MBM",
+                    "isActive": false
+                },
+                {
+                    "id": 89,
+                    "name": "C3 CHC FRANKLIN CNTY",
+                    "code": "MBK",
+                    "isActive": false
+                },
+                {
+                    "id": 82,
+                    "name": "C3 DIMOCK CENTER",
+                    "code": "MBD",
+                    "isActive": false
+                },
+                {
+                    "id": 79,
+                    "name": "C3 EAST BOSTON NHC",
+                    "code": "MBA",
+                    "isActive": false
+                },
+                {
+                    "id": 93,
+                    "name": "C3 ED M KENNEDY CHC",
+                    "code": "MBO",
+                    "isActive": false
+                },
+                {
+                    "id": 92,
+                    "name": "C3 FAMILY HC",
+                    "code": "MBN",
+                    "isActive": false
+                },
+                {
+                    "id": 84,
+                    "name": "C3 FENWAY HEALTH",
+                    "code": "MBF",
+                    "isActive": false
+                },
+                {
+                    "id": 87,
+                    "name": "C3 HILLTOWN CHC",
+                    "code": "MBI",
+                    "isActive": false
+                },
+                {
+                    "id": 86,
+                    "name": "C3 HOLYOKE HC",
+                    "code": "MBH",
+                    "isActive": false
+                },
+                {
+                    "id": 90,
+                    "name": "C3 LYNN CHC",
+                    "code": "MBL",
+                    "isActive": false
+                },
+                {
+                    "id": 85,
+                    "name": "C3 NORTH SHORE CH",
+                    "code": "MBG",
+                    "isActive": false
+                },
+                {
+                    "id": 83,
+                    "name": "C3 NORTHEND WATERFNT",
+                    "code": "MBE",
+                    "isActive": false
+                },
+                {
+                    "id": 88,
+                    "name": "C3 UPHAMS CORNER HC",
+                    "code": "MBJ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "client": {
+                "clientId": 59,
+                "clientName": "CarilionClinic"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 72,
+                    "name": "MED ADV ACO",
+                    "code": "MO",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "client": {
+                "clientId": 72,
+                "clientName": "CONNECTED CARE OF SOUTHEASTERN MASSACHUSETTS"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "client": {
+                "clientId": 70,
+                "clientName": "CoxHealth"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "client": {
+                "clientId": 100,
+                "clientName": "CRYSTAL RUN HEALTH PLAN, LLC"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 15,
+                    "appDescription": "WKCC Provider Portal",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 9,
+                    "appDescription": "Milliman",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 6,
+                    "appDescription": "Patient Registry",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 5,
+                    "appDescription": "Pharmacy",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                },
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "client": {
+                "clientId": 41,
+                "clientName": "Deaconess"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 9,
+                    "appDescription": "Milliman",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                },
+                {
+                    "id": 72,
+                    "name": "MED ADV ACO",
+                    "code": "MO",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "client": {
+                "clientId": 69,
+                "clientName": "FMOLHS Health Leaders Network"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "client": {
+                "clientId": 61,
+                "clientName": "GPAC"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "client": {
+                "clientId": 58,
+                "clientName": "HillPhysicians"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "client": {
+                "clientId": 63,
+                "clientName": "HoustonMethodist"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "client": {
+                "clientId": 22,
+                "clientName": "IUH"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 9,
+                    "appDescription": "Milliman",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                },
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                },
+                {
+                    "id": 40,
+                    "name": "MEDICARE",
+                    "code": "MC ",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "client": {
+                "clientId": 42,
+                "clientName": "KentuckyBaptist"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 9,
+                    "appDescription": "Milliman",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "client": {
+                "clientId": 43,
+                "clientName": "Legacy"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 78,
+                    "name": "COMMERCIAL INDV ACO",
+                    "code": "IO",
+                    "isActive": false
+                },
+                {
+                    "id": 72,
+                    "name": "MED ADV ACO",
+                    "code": "MO",
+                    "isActive": false
+                },
+                {
+                    "id": 77,
+                    "name": "Medicaid ACO",
+                    "code": "MB",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "client": {
+                "clientId": 107,
+                "clientName": "LighthouseHealth"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 5,
+                    "appDescription": "Pharmacy",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "client": {
+                "clientId": 2,
+                "clientName": "MEDSTAR"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 40,
+                    "name": "MEDICARE",
+                    "code": "MC ",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "client": {
+                "clientId": 52,
+                "clientName": "MFC"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                },
+                {
+                    "id": 76,
+                    "name": "MEDICAID DC",
+                    "code": "MAD",
+                    "isActive": false
+                },
+                {
+                    "id": 75,
+                    "name": "MEDICAID MD",
+                    "code": "MAM",
+                    "isActive": false
+                },
+                {
+                    "id": 70,
+                    "name": "OTHER FUNDING",
+                    "code": "SP ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "client": {
+                "clientId": 108,
+                "clientName": "MiamiChildrensHealth"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 5,
+                    "appDescription": "Pharmacy",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "client": {
+                "clientId": 71,
+                "clientName": "MISSION HEALTH COORDINATED CARE"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "client": {
+                "clientId": 66,
+                "clientName": "NGHS"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "client": {
+                "clientId": 67,
+                "clientName": "NorthShore"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 78,
+                    "name": "COMMERCIAL INDV ACO",
+                    "code": "IO",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "client": {
+                "clientId": 57,
+                "clientName": "OrlandoHealth"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "client": {
+                "clientId": 54,
+                "clientName": "Passport"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                },
+                {
+                    "id": 40,
+                    "name": "MEDICARE",
+                    "code": "MC ",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "client": {
+                "clientId": 10,
+                "clientName": "Premier"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                },
+                {
+                    "id": 72,
+                    "name": "MED ADV ACO",
+                    "code": "MO",
+                    "isActive": false
+                },
+                {
+                    "id": 40,
+                    "name": "MEDICARE",
+                    "code": "MC ",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "client": {
+                "clientId": 56,
+                "clientName": "StLukes"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 78,
+                    "name": "COMMERCIAL INDV ACO",
+                    "code": "IO",
+                    "isActive": false
+                },
+                {
+                    "id": 72,
+                    "name": "MED ADV ACO",
+                    "code": "MO",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "client": {
+                "clientId": 109,
+                "clientName": "TrueHealthNewMexico"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 74,
+                    "name": "COMMERCIAL INDIV",
+                    "code": "CI",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "client": {
+                "clientId": 62,
+                "clientName": "UAT_DeId"
+            },
+            "apps": [],
+            "lobs": []
+        },
+        {
+            "id": 33,
+            "client": {
+                "clientId": 33,
+                "clientName": "VHAN"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "client": {
+                "clientId": 106,
+                "clientName": "VividaHealth"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 16,
+                    "appDescription": "Complaints",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 17,
+                    "appDescription": "Network",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 2,
+                    "appDescription": "Utilization Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 21,
+                    "appDescription": "Auto Auth Rules",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 8,
+                    "appDescription": "Interqual",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 5,
+                    "appDescription": "Pharmacy",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 20,
+                    "appDescription": "Practice Authorization Requests",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 39,
+                    "name": "MEDICAID",
+                    "code": "MA ",
+                    "isActive": false
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "client": {
+                "clientId": 26,
+                "clientName": "WKCC"
+            },
+            "apps": [
+                {
+                    "appId": 22,
+                    "appDescription": "Analytics",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 1,
+                    "appDescription": "Care Management",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 7,
+                    "appDescription": "Practice",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 15,
+                    "appDescription": "WKCC Provider Portal",
+                    "appGroupId": 1,
+                    "appGroupDescription": "Applications",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 14,
+                    "appDescription": "Clinical Configuration Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 13,
+                    "appDescription": "Clinical Record Editor",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 11,
+                    "appDescription": "Clinical Rule Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 12,
+                    "appDescription": "Clinical Rules Test Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 19,
+                    "appDescription": "Engage Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": true
+                },
+                {
+                    "appId": 24,
+                    "appDescription": "Learning",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 18,
+                    "appDescription": "Letter Admin",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 10,
+                    "appDescription": "Stratification Manager",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 4,
+                    "appDescription": "User Admin Tool",
+                    "appGroupId": 2,
+                    "appGroupDescription": "Admin Tools",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 23,
+                    "appDescription": "QuickText",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                },
+                {
+                    "appId": 3,
+                    "appDescription": "Reports",
+                    "appGroupId": 3,
+                    "appGroupDescription": "Features",
+                    "isLobRequired": false
+                }
+            ],
+            "lobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": false
+                },
+                {
+                    "id": 73,
+                    "name": "COMMERCIAL ACO",
+                    "code": "CO",
+                    "isActive": false
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": false
+                },
+                {
+                    "id": 40,
+                    "name": "MEDICARE",
+                    "code": "MC ",
+                    "isActive": false
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": false
+                },
+                {
+                    "id": 1,
+                    "name": "MSSP",
+                    "code": "MS ",
+                    "isActive": false
+                },
+                {
+                    "id": 70,
+                    "name": "OTHER FUNDING",
+                    "code": "SP ",
+                    "isActive": false
+                }
+            ]
+        }
+    ]
+}

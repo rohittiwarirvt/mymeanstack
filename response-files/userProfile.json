@@ -1,0 +1,222 @@
+{
+    "id": "rtiwari1",
+    "userKey": 114144,
+    "firstName": "rohit",
+    "lastName": "tiwari1",
+    "email": "rtiwari@evolenthealth.com",
+    "phoneNumber": "1111111111",
+    "login": "rtiwari1",
+    "isSupervisor": false,
+    "managerKey": 43892,
+    "domainKey": 3,
+    "domain": {
+        "id": 3,
+        "name": "ehnp.corp.evolenthealth.com",
+        "isAppEvolentDomain": true
+    },
+    "jobType": {
+        "id": 61,
+        "name": "Analyst"
+    },
+    "clients": [
+        {
+            "id": 2,
+            "name": "MEDSTAR",
+            "isActive": true,
+            "isWebApplicationSupported": true,
+            "edwClientId": 1,
+            "clientLobs": [
+                {
+                    "id": 38,
+                    "name": "COMMERCIAL",
+                    "code": "CM ",
+                    "isActive": true,
+                    "clientId": 0
+                },
+                {
+                    "id": 53,
+                    "name": "Medicare Advantage",
+                    "code": "MAA",
+                    "isActive": true,
+                    "clientId": 0
+                },
+                {
+                    "id": 71,
+                    "name": "COMMERCIAL EMPLOYEE",
+                    "code": "EE ",
+                    "isActive": true,
+                    "clientId": 0
+                }
+            ],
+            "appModules": [
+                {
+                    "id": 1,
+                    "name": "Care Management",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 2,
+                    "name": "Utilization Management",
+                    "isActive": true,
+                    "appModuleRoles": [
+                        {
+                            "roleId": 5,
+                            "roledescription": "UM Intake",
+                            "roleName": "UM Intake",
+                            "isActive": true
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Reports",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 4,
+                    "name": "User Admin Tool",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 7,
+                    "name": "Practice",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 8,
+                    "name": "Interqual",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 10,
+                    "name": "Stratification Manager",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 11,
+                    "name": "Clinical Rule Manager",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 12,
+                    "name": "Clinical Rules Test Manager",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 13,
+                    "name": "Clinical Record Editor",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 14,
+                    "name": "Clinical Configuration Manager",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 16,
+                    "name": "Complaints",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 17,
+                    "name": "Network",
+                    "isActive": true,
+                    "appModuleRoles": [
+                    {
+                        "roleId": 35,
+                        "roledescription": "Network Administrator",
+                        "roleName": "Network Administrator",
+                        "isActive": true
+                    }
+                ]
+                },
+                {
+                    "id": 18,
+                    "name": "Letter Admin",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 19,
+                    "name": "Engage Admin",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 20,
+                    "name": "Practice Authorization Requests",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 21,
+                    "name": "Auto Auth Rules",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 23,
+                    "name": "QuickText",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 22,
+                    "name": "Analytics",
+                    "isActive": true,
+                    "appModuleRoles": []
+                },
+                {
+                    "id": 24,
+                    "name": "Learning",
+                    "isActive": true,
+                    "appModuleRoles": [
+                        {
+                            "roleId": 48,
+                            "roledescription": "Learning Editor",
+                            "roleName": "Learning Editor",
+                            "isActive": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "manager": {
+        "id": 43892,
+        "name": "1 Ghosh, Nilav"
+    },
+    "userType": {
+        "id": 1,
+        "name": "Evolent User"
+    },
+    "statusKey": 1,
+    "status": "Active",
+    "createDate": "2018-09-18T10:30:59.333",
+    "lastUpdateDate": "2018-11-23T06:27:46.97",
+    "lastupdatedBy": "Tiwaris, Rohit",
+    "termsAndConditionVersion": "version 11",
+    "imageKey": 0,
+    "isAccountLockedinAd": false,
+    "daysToPasswordExpiry": 60,
+    "lastLoginDateTime": "2018-09-20T03:57:23.967",
+    "termsAndConditionExists": false,
+    "termsAndConditionVersionUpdated": false,
+    "isTemporaryPasswordSet": false,
+    "userMustChangePasswordNextLogon": false,
+    "securityQuestionExists": false,
+    "securityQuestionValidationCount": 0,
+    "isFirstTimeUser": false,
+    "userGUID": "34c1e092-34a7-4ae6-8207-ec59b9533fb5"
+}

@@ -1,0 +1,291 @@
+{
+    "data": [
+        {
+            "roleId": 1,
+            "roleDescription": "EvolentOpsAdmin",
+            "appId": 4,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 2,
+            "roleDescription": "ClientOpsAdmin",
+            "appId": 4,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 3,
+            "roleDescription": "Supervisor",
+            "appId": 1,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 4,
+            "roleDescription": "Care Manager",
+            "appId": 1,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 5,
+            "roleDescription": "UM Intake",
+            "appId": 2,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 6,
+            "roleDescription": "UM Coordinator",
+            "appId": 2,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 7,
+            "roleDescription": "UM Nurse",
+            "appId": 2,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 8,
+            "roleDescription": "UM Medical Director",
+            "appId": 2,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 9,
+            "roleDescription": "ReportsUser",
+            "appId": 3,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 10,
+            "roleDescription": "InterQualUser",
+            "appId": 8,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 11,
+            "roleDescription": "MillimanUser",
+            "appId": 9,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 15,
+            "roleDescription": "UM Appeals Nurse",
+            "appId": 2,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 16,
+            "roleDescription": "Complaint Reviewer",
+            "appId": 16,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 20,
+            "roleDescription": "StratAdmin",
+            "appId": 10,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 21,
+            "roleDescription": "StratReadOnly",
+            "appId": 10,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 22,
+            "roleDescription": "RulesAdmin",
+            "appId": 11,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 23,
+            "roleDescription": "RulesReadOnly",
+            "appId": 11,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 24,
+            "roleDescription": "RulesTestAdmin",
+            "appId": 12,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 25,
+            "roleDescription": "RulesTestReadOnly",
+            "appId": 12,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 26,
+            "roleDescription": "ClinicalRecordAdmin",
+            "appId": 13,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 27,
+            "roleDescription": "ClinicalRecordReadonly",
+            "appId": 13,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 28,
+            "roleDescription": "ClinicalConfigAdmin",
+            "appId": 14,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 29,
+            "roleDescription": "ClinicalConfigReadonly",
+            "appId": 14,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 30,
+            "roleDescription": "PracticeDataEntry",
+            "appId": 7,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 31,
+            "roleDescription": "PracticeUser",
+            "appId": 7,
+            "isNPIRequired": true,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 32,
+            "roleDescription": "Portal User",
+            "appId": 15,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 33,
+            "roleDescription": "Portal Editor",
+            "appId": 15,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 34,
+            "roleDescription": "PracticePhysician",
+            "appId": 7,
+            "isNPIRequired": true,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 35,
+            "roleDescription": "Network Administrator",
+            "appId": 17,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 36,
+            "roleDescription": "Network User",
+            "appId": 17,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 38,
+            "roleDescription": "Letter Author",
+            "appId": 18,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 39,
+            "roleDescription": "Letter Publisher",
+            "appId": 18,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 40,
+            "roleDescription": "Engage Admin User",
+            "appId": 19,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 41,
+            "roleDescription": "Authorization Intake",
+            "appId": 20,
+            "isNPIRequired": false,
+            "isNPIOptional": true
+        },
+        {
+            "roleId": 43,
+            "roleDescription": "UM Rules Publisher",
+            "appId": 21,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 44,
+            "roleDescription": "PracticeNetworkUser",
+            "appId": 7,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 45,
+            "roleDescription": "PRO",
+            "appId": 22,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 46,
+            "roleDescription": "PROLTD",
+            "appId": 22,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 47,
+            "roleDescription": "QuickTextAdmin",
+            "appId": 23,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 48,
+            "roleDescription": "Learning Editor",
+            "appId": 24,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        },
+        {
+            "roleId": 49,
+            "roleDescription": "Learning User",
+            "appId": 24,
+            "isNPIRequired": false,
+            "isNPIOptional": false
+        }
+    ]
+}
