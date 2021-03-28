@@ -1,34 +1,37 @@
-const fs = require("fs");
-const express = require("express");
-const morgan = require("morgan");
-const tourRouter = require("./routes/toursRouter");
+const express = require('express');
+const morgan = require('morgan');
+const tourRouter = require('./routes/toursRouter');
+const userRouter = require('./routes/userRouter');
 const app = express();
 
 // middleware
-app.use(morgan("dev"));
+if (process.env.NODE_ENV !== 'production') {
+  app.use(morgan('dev'));
+}
 
+app.use(express.static(`${__dirname}/public`));
 app.use(express.json());
 
-// Get Files
+app.use((req, res, next) => {
+  req.requestedTime = new Date().toISOString();
+  next();
+});
 
-const tours = JSON.parse(
-  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`)
-);
+app.use((req, res, next) => {
+  //console.log(`This is something new right ${req.requestTime}`);
+  next();
+});
 
 const homeHandler = (req, res) => {
   res.json({
-    message: "This is a natours app from server side",
-    app: "Natours",
+    message: 'This is a natours app from server side',
+    app: 'Natours',
   });
 };
 
-app.route("/").get(homeHandler);
+app.route('/').get(homeHandler);
 
-app.route("/api/v1/tours/", tourRouter);
+app.use('/api/v1/tours', tourRouter);
+app.use('/api/v1/users', userRouter);
 
-// Start Server on Specified Port
-
-const PORT = 3000;
-app.listen(PORT, (req, res) => {
-  console.log(`Server Started and Listening on Port: ${PORT}`);
-});
+module.exports = app;
