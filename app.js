@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const tourRouter = require('./routes/toursRouter');
 const userRouter = require('./routes/userRouter');
+
 const app = express();
 
 // middleware
@@ -25,7 +26,7 @@ app.use((req, res, next) => {
 const homeHandler = (req, res) => {
   res.json({
     message: 'This is a natours app from server side',
-    app: 'Natours',
+    app: 'Natours'
   });
 };
 
