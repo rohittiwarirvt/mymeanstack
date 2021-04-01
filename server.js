@@ -15,21 +15,11 @@ mongoose
   .connect(DB, {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: false
+    useFindAndModify: false,
+    useUnifiedTopology: true
   })
   // eslint-disable-next-line no-console
-  .then(con => console.log(con.connection));
-
-const tourSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, 'Name is missing from the Tour']
-  },
-  price: { type: Number, required: [true, 'Price is required for the tour'] },
-  rating: Number
-});
-
-const Tour = mongoose.model('Tour', tourSchema);
+  .then(() => console.log(`Db connection successfully`));
 
 const PORT = process.env.PORT || 3000;
 

@@ -5,18 +5,22 @@ const {
   createTour,
   updateTour,
   deleteTour,
-  checkID,
-  checkBody
+  getMonthlyAverage,
+  getTourStats,
+  aliasTopTours
 } = require('../controllers/tourController');
 
 const router = express.Router();
 
-router.param('id', checkID);
+router.route('/top-five-tours').get(aliasTopTours, getALLTours);
 
+router.get('/tour-stats', getTourStats);
+
+router.get('/getmonthlyaverage/:year', getMonthlyAverage);
 router
   .route('/')
   .get(getALLTours)
-  .post(checkBody, createTour);
+  .post(createTour);
 
 router
   .route('/:id')
