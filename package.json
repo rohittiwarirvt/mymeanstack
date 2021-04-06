@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start": "NODE_ENV=production nodemon server.js"
+    "start": "SET NODE_ENV=production & nodemon server.js"
   },
   "author": "Rohit Tiwari",
   "license": "ISC",
