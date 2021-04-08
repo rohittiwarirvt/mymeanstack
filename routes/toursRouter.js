@@ -9,6 +9,7 @@ const {
   getTourStats,
   aliasTopTours
 } = require('../controllers/tourController');
+const { protect } = require('./../controllers/authController');
 
 const router = express.Router();
 
@@ -19,7 +20,7 @@ router.get('/tour-stats', getTourStats);
 router.get('/getmonthlyaverage/:year', getMonthlyAverage);
 router
   .route('/')
-  .get(getALLTours)
+  .get(protect, getALLTours)
   .post(createTour);
 
 router
