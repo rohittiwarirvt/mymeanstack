@@ -32,6 +32,12 @@ const userSchema = new mongoose.Schema({
       message: 'Password field and confirm password field needs to be same'
     }
   },
+  photo: String,
+  role: {
+    type: String,
+    enum: ['user', 'guide', 'lead-guide', 'admin'],
+    default: 'user'
+  },
   passwordChangedAt: Date,
   passwordResetToken: String,
   passwordResetExpires: Date,
@@ -50,7 +56,9 @@ userSchema.pre('save', async function(next) {
 
 userSchema.pre('save', function(next) {
   if (!this.isModified('password') || this.isNew) return next();
-  this.passwordChangedAt = Date.now() - 995;
+
+  this.passwordChangedAt = Date.now() - 1000;
+  //console.log(this.passwordChangedAt, 'password');
   next();
 });
 
@@ -69,7 +77,7 @@ userSchema.methods.createPasswordResetToken = function() {
     .update(resetToken)
     .digest('hex');
 
-  console.log({ resetToken }, this.passwordResetToken);
+  //  console.log({ resetToken }, this.passwordResetToken);
 
   this.passwordResetExpires = Date.now() + 10 * 60 * 60 * 1000;
 
@@ -82,12 +90,19 @@ userSchema.methods.changePasswordAfterTokenIssue = function(JWTTimestamp) {
       this.passwordChangedAt.getTime() / 1000,
       10
     );
-    console.log(JWTTimestamp, changedTimestamp);
-    return JWTTimestamp < changedTimestamp;
+    // console.log(JWTTimestamp, changedTimestamp);
+    return JWTTimestamp < changedTimestamp + 5;
   }
   // False means Not Changed
   return false;
 };
+
+userSchema.pre('/^find/', function(next) {
+  // this points to the current query
+
+  this.find({ active: { $ne: false } });
+  next();
+});
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
