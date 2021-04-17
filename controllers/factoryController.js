@@ -34,9 +34,15 @@ exports.updateOne = Model =>
     });
   });
 
-exports.getOne = Model =>
+exports.getOne = (Model, popOptions) =>
   catchAsync(async (req, res, next) => {
-    const doc = await Model.findById(req.params.id);
+    let query = Model.findById(req.params.id);
+
+    if (popOptions) {
+      query = query.populate(popOptions);
+    }
+
+    const doc = await query;
     if (!doc) {
       return next(new AppError(`Document with id ${req.params.id} not found`));
     }
@@ -66,7 +72,10 @@ exports.deleteOne = Model =>
 
 exports.getAll = Model =>
   catchAsync(async (req, res, next) => {
-    const features = new APIFeatures(Model.find(), req.query)
+    // To Allow nested GET reviews on tour (hack)
+    let filter = {};
+    if (req.params.tourId) filter = { tour: req.params.tourId };
+    const features = new APIFeatures(Model.find(filter), req.query)
       .filter()
       .limitFields()
       .sort()

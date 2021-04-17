@@ -48,11 +48,11 @@ const userSchema = new mongoose.Schema({
   }
 });
 
-userSchema.pre('save', async function(next) {
-  this.password = await bcrypt.hash(this.password, 12);
-  this.passwordConfirm = undefined;
-  next();
-});
+// userSchema.pre('save', async function(next) {
+//   this.password = await bcrypt.hash(this.password, 12);
+//   this.passwordConfirm = undefined;
+//   next();
+// });
 
 userSchema.pre('save', function(next) {
   if (!this.isModified('password') || this.isNew) return next();
@@ -91,7 +91,7 @@ userSchema.methods.changePasswordAfterTokenIssue = function(JWTTimestamp) {
       10
     );
     // console.log(JWTTimestamp, changedTimestamp);
-    return JWTTimestamp < changedTimestamp + 5;
+    return JWTTimestamp < changedTimestamp;
   }
   // False means Not Changed
   return false;

@@ -10,8 +10,11 @@ const {
   aliasTopTours
 } = require('../controllers/tourController');
 const { protect, restrictTo } = require('./../controllers/authController');
+const reviewRouter = require('./reviewRouter');
 
 const router = express.Router();
+
+router.use('/:tourId/reviews', reviewRouter);
 
 router.route('/top-five-tours').get(aliasTopTours, getALLTours);
 
