@@ -59,13 +59,40 @@ const tourSchema = new mongoose.Schema(
     images: [String],
     startDates: [Date],
     createdAt: { type: Date, default: Date.now(), select: false },
-    secretTour: { type: Boolean, default: false }
+    secretTour: { type: Boolean, default: false },
+    startLocation: {
+      type: {
+        type: String,
+        default: 'Point',
+        enum: ['Point']
+      },
+      address: String,
+      coordinates: [Number],
+      description: String
+    },
+    locations: [
+      {
+        type: { type: String, default: 'Point', enum: 'Point' },
+        coordinates: [Number],
+        address: String,
+        description: String
+      }
+    ],
+    guides: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User'
+      }
+    ]
   },
   {
     toJSON: { virtuals: true },
     toObjectL: { virtuals: true }
   }
 );
+tourSchema.index({ price: 1, ratingsAverage: -1 });
+tourSchema.index({ slug: 1 });
+tourSchema.index({ startLocation: '2dsphere' });
 
 tourSchema.virtual('durationWeeks').get(function() {
   return this.duration / 7;
