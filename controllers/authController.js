@@ -15,6 +15,20 @@ const signToken = id => {
 
 const createSendToken = (user, statusCode, res) => {
   const token = signToken(user._id);
+
+  // set cookie in respose
+  const cookieOptions = {
+    expires: new Date(
+      Date.now() + process.env.JWT_EXPIRES_IN * 24 * 60 * 60 * 1000
+    ),
+    httpOnly: true
+  };
+
+  if (process.env.NODE_ENV === 'production') {
+    cookieOptions.secure = true;
+  }
+
+  res.cookie('jwt', token, cookieOptions);
   // Remove password from output
   user.password = undefined;
   res.status(statusCode).json({
@@ -24,6 +38,36 @@ const createSendToken = (user, statusCode, res) => {
     },
     token
   });
+};
+
+exports.isLoggedIn = async (req, res, next) => {
+  if (req.cookies.jwt) {
+    try {
+      // 1. Verify token
+      const decoded = await promisify(jwt.verify)(
+        req.cookies.jwt,
+        process.env.JWT_SECRET
+      );
+
+      // 2. Check if User exists
+      const currentUser = await User.findById(decoded.id);
+      if (!currentUser) {
+        return next();
+      }
+
+      // 3. Check if user changed password aftet the token was issued.
+      if (currentUser.changePasswordAfterTokenIssue(decoded.iat)) {
+        return next();
+      }
+
+      // There is logged in user
+      res.locals.user = currentUser;
+      return next();
+    } catch (err) {
+      return next();
+    }
+  }
+  next();
 };
 
 exports.signup = catchAsync(async (req, res, next) => {

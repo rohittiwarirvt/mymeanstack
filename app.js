@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
@@ -5,7 +6,9 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const cookieParser = require('cookie-parser');
 
+const viewRouter = require('./routes/viewRouter');
 const tourRouter = require('./routes/toursRouter');
 const userRouter = require('./routes/userRouter');
 const reviewRouter = require('./routes/reviewRouter');
@@ -14,6 +17,9 @@ const AppError = require('./utils/appError');
 
 const app = express();
 
+// set pug engine
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
 // middleware
 
 //1) Global middlewares
@@ -36,6 +42,7 @@ app.use('/api', limiter);
 
 // Body parser, reading data from body to req.body
 app.use(express.json({ limit: '10kb' }));
+app.use(cookieParser());
 
 // Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
@@ -58,7 +65,7 @@ app.use(
 );
 
 // Host Static files
-app.use(express.static(`${__dirname}/public`));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // middleware for debbugging
 app.use((req, res, next) => {
@@ -66,14 +73,14 @@ app.use((req, res, next) => {
   next();
 });
 
-const homeHandler = (req, res) => {
-  res.json({
-    message: 'This is a natours app from server side',
-    app: 'Natours'
-  });
-};
+// const homeHandler = (req, res) => {
+//   res.json({
+//     message: 'This is a natours app from server side',
+//     app: 'Natours'
+//   });
+// };
 
-app.route('/').get(homeHandler);
+app.use('/', viewRouter);
 
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);

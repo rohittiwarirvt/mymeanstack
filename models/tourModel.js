@@ -75,6 +75,7 @@ const tourSchema = new mongoose.Schema(
         type: { type: String, default: 'Point', enum: 'Point' },
         coordinates: [Number],
         address: String,
+        day: Number,
         description: String
       }
     ],
@@ -119,6 +120,11 @@ tourSchema.pre(/^find/, function(next) {
 
 tourSchema.post(/^find/, function(docs, next) {
   console.log(`Query took ${Date.now() - this.start} milliseconds`);
+  next();
+});
+
+tourSchema.pre(/^find/, function(next) {
+  this.populate({ path: 'guides', select: '-__v -passwordChangedAt' });
   next();
 });
 
