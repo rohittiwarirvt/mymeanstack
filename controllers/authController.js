@@ -82,6 +82,14 @@ exports.signup = catchAsync(async (req, res, next) => {
   createSendToken(user, 201, res);
 });
 
+exports.logout = (req, res) => {
+  res.cookie('jwt', 'loggedout', {
+    expires: new Date(Date.now() + 5 * 1000),
+    httpOnly: true
+  });
+  res.status(200).json({ status: 'success' });
+};
+
 exports.login = catchAsync(async (req, res, next) => {
   const { email, password } = req.body;
 
@@ -106,15 +114,18 @@ exports.login = catchAsync(async (req, res, next) => {
 
 exports.protect = catchAsync(async (req, res, next) => {
   let token;
+
   // 1) Getting token and checking if its presents
   if (
-    req.headers.authorization ||
+    req.headers.authorization &&
     req.headers.authorization.startsWith('Bearer')
   ) {
     token = req.headers.authorization.split(' ')[1];
+  } else if (req.cookies.jwt) {
+    token = req.cookies.jwt;
   }
 
-  if (!req.headers.authorization) {
+  if (!token) {
     return next(
       new AppError('You are not logged in. Please login in to get access', 401)
     );
@@ -138,6 +149,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   }
   // Grant Access to PROTECTED Route
   req.user = currentUser;
+  res.locals.user = currentUser;
   next();
 });
 
