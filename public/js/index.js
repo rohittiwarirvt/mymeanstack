@@ -1,6 +1,5 @@
 /* eslint-disable */
 import '@babel/polyfill';
-import e from 'express';
 import { login, logout } from './login';
 import { displayMap } from './mapbox';
 import { updateSettings } from './updateSettings';
@@ -51,7 +50,7 @@ if (userDataForm) {
 if (userPasswordForm) {
   userPasswordForm.addEventListener('submit', async e => {
     e.preventDefault();
-    document.querySelector('.btn-save-password').textConten = 'Updating...';
+    document.querySelector('.btn--save-password').textContent = 'Updating...';
     const passwordCurrent = document.getElementById('password-current').value;
     const password = document.getElementById('password').value;
     const passwordConfirm = document.getElementById('password-confirm').value;
