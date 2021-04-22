@@ -7,7 +7,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
-
+const compression = require('compression');
 const viewRouter = require('./routes/viewRouter');
 const tourRouter = require('./routes/toursRouter');
 const userRouter = require('./routes/userRouter');
@@ -23,6 +23,8 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 // middleware
 
+// add gzip compression to
+app.use(compression());
 //1) Global middlewares
 // Set Security headers
 app.use(helmet());

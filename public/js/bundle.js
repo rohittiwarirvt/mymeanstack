@@ -8508,7 +8508,7 @@ var login = /*#__PURE__*/function () {
             _context.next = 3;
             return (0, _axios.default)({
               method: 'POST',
-              url: 'http://localhost:3000/api/v1/users/login',
+              url: '/api/v1/users/login',
               data: {
                 email: email,
                 password: password
@@ -8559,7 +8559,7 @@ var logout = /*#__PURE__*/function () {
             _context2.next = 3;
             return (0, _axios.default)({
               method: 'GET',
-              url: 'http://localhost:3000/api/v1/users/logout'
+              url: '/api/v1/users/logout'
             });
 
           case 3:
@@ -8570,16 +8570,15 @@ var logout = /*#__PURE__*/function () {
               location.assign('/').reload(true);
             }
 
-            _context2.next = 11;
+            _context2.next = 10;
             break;
 
           case 7:
             _context2.prev = 7;
             _context2.t0 = _context2["catch"](0);
-            console.log(_context2.t0.response);
             (0, _alert.showAlert)('error', 'Error logging out! Try again.');
 
-          case 11:
+          case 10:
           case "end":
             return _context2.stop();
         }
@@ -8664,7 +8663,7 @@ var updateSettings = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            url = type === 'password' ? 'http://localhost:3000/api/v1/users/updateMyPassword' : 'http://localhost:3000/api/v1/users/updateMe';
+            url = type === 'password' ? '/api/v1/users/updateMyPassword' : '/api/v1/users/updateMe';
             _context.next = 4;
             return (0, _axios.default)({
               method: 'PATCH',
@@ -8679,16 +8678,16 @@ var updateSettings = /*#__PURE__*/function () {
               (0, _alert.showAlert)('success', "".concat(type.toUpperCase(), " updated successfully"));
             }
 
-            _context.next = 12;
+            _context.next = 11;
             break;
 
           case 8:
             _context.prev = 8;
             _context.t0 = _context["catch"](0);
-            console.log(_context.t0.message);
+            // console.log(err.message);
             (0, _alert.showAlert)('error', "Something bad happned! ".concat(_context.t0.message));
 
-          case 12:
+          case 11:
           case "end":
             return _context.stop();
         }
@@ -8733,7 +8732,7 @@ var bookTour = /*#__PURE__*/function () {
             _context.next = 3;
             return (0, _axios.default)({
               method: 'GET',
-              url: "http://localhost:3000/api/v1/bookings/checkout-session/".concat(tourId)
+              url: "/api/v1/bookings/checkout-session/".concat(tourId)
             });
 
           case 3:
