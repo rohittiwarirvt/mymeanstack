@@ -1,5 +1,6 @@
 # custom rohit added
 .cache
+config.env
 
 # Logs
 logs
