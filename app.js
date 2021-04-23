@@ -9,6 +9,7 @@ const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const cors = require('cors');
+const bodyParser = require('body-parser');
 const viewRouter = require('./routes/viewRouter');
 const tourRouter = require('./routes/toursRouter');
 const userRouter = require('./routes/userRouter');
@@ -62,7 +63,7 @@ app.use('/api', limiter);
 // Stripe webhook, BEFORE body-parser, because stripe needs the body as stream
 app.post(
   '/webhook-checkout',
-  express.raw({ type: 'application/json' }),
+  bodyParser.raw({ type: 'application/json' }),
   webhookCheckout
 );
 
