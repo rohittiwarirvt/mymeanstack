@@ -64,7 +64,6 @@ const createBookingCheckout = async session => {
 };
 
 exports.webhookCheckout = (req, res, next) => {
-  console.log(req);
   console.log('header');
   console.log(req.headers);
   console.log('sss');
